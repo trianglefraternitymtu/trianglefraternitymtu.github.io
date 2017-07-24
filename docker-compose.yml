@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  jekyll:
+    image: trianglefraternitymtu/website
+    volumes:
+      - .:/site
+    ports:
+      - '80:4000'

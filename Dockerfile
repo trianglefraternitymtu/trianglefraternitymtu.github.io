@@ -8,7 +8,7 @@ EXPOSE 4000
 
 WORKDIR /site
 
-COPY docker-entrypoint.sh /usr/local/bin/
+COPY ./docker-entrypoint.sh /usr/local/bin/
 
 ENTRYPOINT [ "docker-entrypoint.sh" ]
 
