@@ -13,4 +13,4 @@ Pull a ready to use Docker image from [Docker Hub](https://hub.docker.com/r/tria
 $ docker run -v $PWD:/site -p 80:4000 -it trianglefraternitymtu/website
 ```
 
-Alternativly, after cloning this repository, user `docker compose up` to start the container and mount the volume correctly.
+Alternatively, after cloning this repository, use `docker compose up` to start the container and mount the volume correctly.
