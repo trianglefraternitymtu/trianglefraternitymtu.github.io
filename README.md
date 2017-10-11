@@ -1,5 +1,7 @@
 # Triangle Fraternity at Michigan Technological University
 
+[![Build Status](https://travis-ci.org/trianglefraternitymtu/trianglefraternitymtu.github.io.svg?branch=master)](https://travis-ci.org/trianglefraternitymtu/trianglefraternitymtu.github.io)
+
 ## Development
 
 ### Local Development
