@@ -14,21 +14,29 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Triangle Fraternity at Michigan Technological University
-email: triangle@mtu.edu
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
+# timezone: America/Detroit
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+email: triangle@mtu.edu
 twitter_username: MTU_Triangle
 github_username: trianglefraternitymtu
 facebook_username: mtutriangle
+active_slack: mtutriangle
+alumni_slack: mtutrianglealum
 
 # Build settings
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate: 2
+paginate_path: "/blog/page:num"
 
 collections:
   events:
@@ -40,6 +48,10 @@ defaults:
       type: "events"
     values:
       layout: "event"
+  - scope:
+      type: "posts"
+    values:
+      permalink: /blog/:year/:month/:day/:title
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -49,3 +61,6 @@ exclude:
   - Gemfile.lock
   - vendor
   - docker-compose.yml
+  - README.md
+  - .travis.yml
+  - .gitignore

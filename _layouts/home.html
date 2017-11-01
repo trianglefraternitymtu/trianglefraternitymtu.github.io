@@ -2,9 +2,18 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   {% include head.html %}
 
-  <div class="container">
-    {{ content }}
-  </div>
+  <body>
+    <div class="container">
 
-  {% include footer.html %}
+      {% include header.html %}
+
+      <main role="main">
+        {{ content }}
+      </main>
+
+      {% include footer.html %}
+
+    </div>
+    {% include scripts.html %}
+  </body>
 </html>
