@@ -35,7 +35,7 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 
-paginate: 2
+paginate: 7
 paginate_path: "/blog/page:num"
 
 collections:

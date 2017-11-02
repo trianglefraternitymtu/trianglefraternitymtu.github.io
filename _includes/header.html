@@ -5,22 +5,23 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
-      <ul class="navbar-nav w-120">
+      <ul class="navbar-nav w-100">
         <li class="nav-item active">
           <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
         </li>
         <!-- <li class="nav-item">
           <a class="nav-link" href="#">News</a>
         </li> -->
+        {% if site.posts.size > 0 %}
         <li class="nav-item">
-          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link" href="{% link blog/index.html %}">Blog</a>
         </li>
-        <!-- <li class="nav-item">
-          <a class="nav-link" href="#">Events</a>
-        </li> -->
+        {% endif %}
         <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="http://example.com" id="events" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
+          <a class="nav-link dropdown-toggle" href="{% link upcoming-events.md %}" id="events" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
           <div class="dropdown-menu" aria-labelledby="events">
+            <a class="dropdown-item" href="{% link upcoming-events.md %}">Upcoming events</a>
+            <div class="dropdown-divider"></div>
             {% for event in site.events %}
             <a class="dropdown-item" href="{{ event.url }}">{{event.title}}</a>
             {% endfor %}
