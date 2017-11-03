@@ -3,22 +3,16 @@
   {% include head.html %}
 
   <body>
-    <div class="container">
-
-      {% include header.html %}
-
-      <main role="main">
-        <div class="blog-post">
-          <h1 class="blog-post-title">{{ page.title }}</h1>
-          <p class="blog-post-meta"><a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a></p>
-          <hr/>
-          {{ content }}
-        </div>
-      </main>
-
-      {% include footer.html %}
-
-    </div>
+    {% include header.html %}
+    <main role="main" class="container">
+      <div class="blog-post">
+        <h1 class="blog-post-title">{{ page.title }}</h1>
+        <p class="blog-post-meta"><a href="{{ page.url }}">{{ page.date | date_to_long_string }}</a></p>
+        <hr/>
+        {{ content }}
+      </div>
+    </main>
+    {% include footer.html %}
     {% include scripts.html %}
   </body>
 </html>
