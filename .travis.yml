@@ -8,7 +8,7 @@ install:
 
 before_script: bundle exec jekyll build
 
-script: htmlproofer ./_site
+script: htmlproofer ./_site --allow-hash-href --disable-external --assume-extension
 
 env:
   global:
