@@ -6,11 +6,18 @@ title: Blog
 <div class="row">
   <div class="col-sm-8 blog-main">
     {% for post in paginator.posts %}
-    <div class="blog-post">
-      <h1 class="blog-post-title">{{ post.title }}</h1>
-      <p class="blog-post-meta"><a href="{{ post.url }}">{{ post.date | date_to_long_string }}</a></p>
-      <hr/>
-      {{ post.content }}
+    <div class="card mb-4">
+      {% if post.cover-images %}
+      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" style="width:750;height:300">
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ post.title }}</h2>
+        <p class="card-text">{{ post.excerpt | truncatewords: 150 }}</p>
+        <a href="{{ post.url }}" class="btn btn-primary">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="card-footer text-muted">
+        <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
+      </div>
     </div>
     {% endfor %}
 
@@ -53,9 +60,8 @@ title: Blog
 
   <aside class="col-sm-3 ml-sm-auto blog-sidebar">
     <div class="sidebar-module sidebar-module-inset">
-      <i class="fa fa-quote-left fa-3x fa-pull-left fa-border" aria-hidden="true"></i>
-      <h4>About</h4>
-      <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+      <i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
+      <p>The purpose of Triangle shall be to maintain a fraternity of engineers, architects and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</p>
     </div>
     <div class="sidebar-module">
       <div class="fb-page"
