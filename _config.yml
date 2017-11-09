@@ -60,7 +60,6 @@ defaults:
 exclude:
   - Gemfile
   - Gemfile.lock
-  - vendor
   - docker-compose.yml
   - README.md
   - .travis.yml

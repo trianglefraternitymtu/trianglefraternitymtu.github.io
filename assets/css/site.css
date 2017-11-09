@@ -22,6 +22,10 @@
   background-color: #000000;
 }
 
+.social a {
+  background-color: red
+}
+
 /*
  * Page header carousel
  */
