@@ -63,7 +63,25 @@ title: Blog
       <i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
       <p>The purpose of Triangle shall be to maintain a fraternity of engineers, architects and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</p>
     </div>
-    {% include spotlights.html %}
+
+    {% if site.spotlights.size > 0 %}
+    <div class="card">
+      <div class="card-body">
+        <div id="spotlights" class="carousel slide {{ include.classes }}" data-ride="carousel" data-interval="10000">
+          <div class="carousel-inner">
+            {% for s in site.spotlights %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <img class="card-img-top rounded-circle mb-3 img-thumbnail" src="{{ s.cover-image }}" style="width:200;height:200">
+              <h4 class="card-title">{{ s.title }}</h4><h6 class="card-title">{% if s.init-year %}<em>-mtu{{ s.init-year }}</em>{% endif %}</h6>
+              <p class="card-text">{{ s.content | truncate: 160 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
     <div class="sidebar-module">
       <div class="fb-page"
         data-href="https://www.facebook.com/imdb"
