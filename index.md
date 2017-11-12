@@ -12,4 +12,4 @@ cover-images:
       text: This is a right caption
       position: right
 ---
-content on index.md
+Really need to figure out what should go on the main page...
