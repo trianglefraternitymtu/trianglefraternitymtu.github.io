@@ -1,0 +1,94 @@
+---
+layout: page
+title: Blog
+---
+
+<div class="row">
+  <div class="col-sm-8 blog-main">
+    {% for post in paginator.posts %}
+    <div class="card mb-4">
+      {% if post.cover-images %}
+      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" style="width:750;height:300" alt="featured image from post on {{ post.date | date_to_long_string }}">
+      {% endif %}
+      <div class="card-body">
+        <h2 class="card-title">{{ post.title }}</h2>
+        <p class="card-text">{{ post.excerpt | truncatewords: 150 }}</p>
+        <a href="{{ post.url }}" class="btn btn-primary">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+      </div>
+      <div class="card-footer text-muted">
+        <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
+      </div>
+    </div>
+    {% endfor %}
+
+    {% if paginator.total_pages > 1 %}
+    <nav aria-label="paginator">
+      <ul class="pagination justify-content-center">
+        {% if paginator.previous_page %}
+        <li class="page-item">
+          <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i>  Previous</a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <a class="page-link"><i class="fa fa-angle-double-left" aria-hidden="true"></i>  Previous</a>
+        </li>
+        {% endif %}
+
+        {% for page in (1..paginator.total_pages) %}
+          {% if page == paginator.page %}
+            <li class="page-item active"><a class="page-link">{{ page }}</a></li>
+          {% elsif page == 1 %}
+            <li><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+          {% else %}
+            <li><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+          {% endif %}
+        {% endfor %}
+
+        {% if paginator.next_page %}
+        <li class="page-item">
+          <a class="page-link" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next  <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </li>
+        {% else %}
+        <li class="page-item disabled">
+          <a class="page-link">Next  <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+        </li>
+        {% endif %}
+      </ul>
+    </nav>
+    {% endif %}
+  </div><!-- /.blog-main -->
+
+  <aside class="col-sm-3 ml-sm-auto blog-sidebar">
+    <div class="sidebar-module sidebar-module-inset">
+      <i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
+      <p>The purpose of Triangle shall be to maintain a fraternity of engineers, architects and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</p>
+    </div>
+
+    {% if site.spotlights.size > 0 %}
+    <div class="card">
+      <div class="card-body">
+        <div id="spotlights" class="carousel slide {{ include.classes }}" data-ride="carousel" data-interval="10000">
+          <div class="carousel-inner">
+            {% for s in site.spotlights %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <img class="card-img-top rounded-circle mb-3 img-thumbnail" src="{{ s.cover-image }}" style="width:200;height:200" alt="spotlight image of {{ s.title }}">
+              <h4 class="card-title">{{ s.title }}</h4><h6 class="card-title">{% if s.init-year %}<em>-mtu{{ s.init-year }}</em>{% endif %}</h6>
+              <p class="card-text">{{ s.content | truncate: 160 }}</p>
+            </div>
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    </div>
+    {% endif %}
+
+    <div class="sidebar-module">
+      <div class="fb-page"
+        data-href="https://www.facebook.com/imdb"
+        data-width="340"
+        data-hide-cover="false"
+        data-show-facepile="true">
+      </div>
+    </div>
+  </aside><!-- /.blog-sidebar -->
+</div>

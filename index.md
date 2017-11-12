@@ -1,6 +1,15 @@
 ---
-# You don't need to edit this file, it's empty on purpose.
-# Edit theme's home layout instead if you wanna make some changes
-# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: home
+cover-images:
+  - image-link: http://mtutriangle.org/wp-content/uploads/2016/09/formalActive.jpg
+    caption:
+      header: Header Left
+      text: This is a left caption
+      position: left
+  - image-link: http://mtutriangle.org/wp-content/uploads/2016/09/formalAlumni.jpg
+    caption:
+      header: Header right
+      text: This is a right caption
+      position: right
 ---
+Really need to figure out what should go on the main page...

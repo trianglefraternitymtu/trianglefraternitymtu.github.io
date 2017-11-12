@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+
+  <body>
+    {% include header.html %}
+    <main role="main" class="container mt-3">
+      <div class="blog-post">
+        <h1 class="blog-post-title">{{ page.title }}</h1>
+        {% if page.author %}
+        <p><i class="fa fa-user-circle-o" aria-hidden="true"></i> Writen by {{ page.author }}{% if page.author-init-year %} <em>-mtu{{ page.author-init-year }}</em>{% endif %}</p>
+        <hr/>
+        {% endif %}
+        <p class="blog-post-meta"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ page.date | date_to_long_string }}</p>
+        <hr/>
+        {% if page.cover-images %}
+        <div id="event-image-carousel" class="carousel slide" data-ride="carousel" data-interval="7500">
+          <ol class="carousel-indicators">
+            {% for i in page.cover-images %}
+            <li data-target="#event-image-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
+            {% endfor %}
+          </ol>
+
+          <div class="carousel-inner">
+            {% for i in page.cover-images %}
+            <div class="carousel-item {% if forloop.first %}active{% endif %}">
+              <img src="{{i}}" class="img-fluid w-100 rounded" alt="cover image {{ forloop.index }}"/>
+            </div>
+            {% endfor %}
+          </div>
+
+          <a class="carousel-control-prev" href="#event-image-carousel" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+
+          <a class="carousel-control-next" href="#event-image-carousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <hr/>
+        {% endif %}
+        {% assign content_array = page.content | split: site.excerpt_separator %}
+        {% assign excerpt_only = content_array | first %}
+        {% assign content_remainder = content_array | last %}
+        <div class="blog-post-excerpt lead">
+          {{ excerpt_only | append: '</p>'}}
+        </div>
+        <div class="blog-post-content">
+          {{ content_remainder | remove_first: '</p>'}}
+        </div>
+      </div>
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>
