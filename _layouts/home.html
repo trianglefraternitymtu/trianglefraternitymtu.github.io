@@ -20,7 +20,7 @@
           {% continue %}
         {% endunless %}
         <div class="carousel-item {% if forloop.first %}active{% endif %}">
-          <img src="{{i.image-link}}" class="img-fluid w-100"/>
+          <img src="{{i.image-link}}" class="img-fluid w-100" alt="home page cover image {{ forloop.index }}"/>
           {% if i.caption %}
           <div class="carousel-caption text-{{ i.caption.position | default: "left" }}">
             <h2>{{ i.caption.header }}</h2>

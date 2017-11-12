@@ -24,7 +24,7 @@
           <div class="carousel-inner">
             {% for i in page.cover-images %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <img src="{{i}}" class="img-fluid w-100 rounded"/>
+              <img src="{{i}}" class="img-fluid w-100 rounded" alt="cover image {{ forloop.index }}"/>
             </div>
             {% endfor %}
           </div>

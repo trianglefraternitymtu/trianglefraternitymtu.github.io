@@ -8,7 +8,7 @@ title: Blog
     {% for post in paginator.posts %}
     <div class="card mb-4">
       {% if post.cover-images %}
-      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" style="width:750;height:300">
+      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" style="width:750;height:300" alt="featured image from post on {{ post.date | date_to_long_string }}">
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ post.title }}</h2>
@@ -71,7 +71,7 @@ title: Blog
           <div class="carousel-inner">
             {% for s in site.spotlights %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <img class="card-img-top rounded-circle mb-3 img-thumbnail" src="{{ s.cover-image }}" style="width:200;height:200">
+              <img class="card-img-top rounded-circle mb-3 img-thumbnail" src="{{ s.cover-image }}" style="width:200;height:200" alt="spotlight image of {{ s.title }}">
               <h4 class="card-title">{{ s.title }}</h4><h6 class="card-title">{% if s.init-year %}<em>-mtu{{ s.init-year }}</em>{% endif %}</h6>
               <p class="card-text">{{ s.content | truncate: 160 }}</p>
             </div>
