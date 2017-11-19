@@ -50,3 +50,19 @@
   margin-bottom: 1.25rem;
   color: #999;
 }
+.blog-post-content {
+  figure {
+    @media (min-width: 768px) {
+      img {
+        // height: 300px;
+        width: 400px
+      }
+      &.float-left {
+        margin-right: 2em;
+      }
+      &.float-right {
+        margin-left: 2em;
+      }
+    }
+  }
+}
