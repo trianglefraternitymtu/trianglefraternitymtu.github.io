@@ -11,5 +11,7 @@ cover-images:
       header: Header right
       text: This is a right caption
       position: right
+cover-image-controls: false
+cover-image-indicators: true
 ---
 Really need to figure out what should go on the main page...
