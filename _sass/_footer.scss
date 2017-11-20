@@ -30,14 +30,14 @@ ul.social-buttons {
         -webkit-transition: all 0.3s;
         -moz-transition: all 0.3s;
         transition: all 0.3s;
-        color: $triangle-gray;
+        color: $triangle-old-rose;
         border-radius: 100%;
         outline: none;
         // background-color: $gray-900;
         &:active,
         &:focus,
         &:hover {
-          background-color: $triangle-old-rose;
+          background-color: $triangle-gray;
         }
 
         &.fa-twitter, &.fa-twitter-square {

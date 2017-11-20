@@ -38,13 +38,13 @@ ul.blog-pagination {
     &.active {
       .page-link {
         color: white;
-        background-color: $triangle-old-rose;
-        border-color: $triangle-old-rose;
+        background-color: $primary;
+        border-color: $primary;
       }
     }
     &.disabled {
       .page-link {
-        color: $triangle-gray;
+        color: $secondary;
       }
     }
   }
