@@ -100,3 +100,13 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: $primary;
 }
+
+ol.carousel-indicators {
+  li {
+    background-color: $triangle-gray;
+
+    &.active {
+      background-color: $triangle-old-rose;
+    }
+  }
+}
