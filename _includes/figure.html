@@ -1,0 +1,4 @@
+<figure class="figure float-{{ include.position | default: "left"}}">
+  <img src="{{ include.image }}" class="figure-img img-fluid rounded" alt="Figure image">
+  <figcaption class="figure-caption text-{{ include.position | default: "left"}}">{{ include.caption }}</figcaption>
+</figure>
