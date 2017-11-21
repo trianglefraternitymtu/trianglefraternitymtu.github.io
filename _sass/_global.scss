@@ -110,3 +110,90 @@ ol.carousel-indicators {
     }
   }
 }
+
+ul.social-buttons {
+  margin-bottom: 0;
+  li {
+    a {
+      i {
+        // font-size: 20px;
+        line-height: 30px;
+        display: block;
+        width: 30px;
+        height: 30px;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+        color: $triangle-old-rose;
+        border-radius: 100%;
+        outline: none;
+        background-color: white;
+        &:active,
+        &:focus,
+        &:hover {
+          background-color: $triangle-gray;
+        }
+
+        &.fa-twitter, &.fa-twitter-square {
+          color: #1da1f2;
+          &:active,
+          &:focus,
+          &:hover {
+            color: #f5f8fa;
+            background-color: #1da1f2;
+          }
+        }
+
+        &.fa-linkedin, &.fa-linkedin-square {
+          color: #0077b5;
+          &:active,
+          &:focus,
+          &:hover {
+            color: white;
+            background-color: #0077b5;
+          }
+        }
+
+        &.fa-facebook, &.fa-facebook-square, &.fa-facebook-official {
+          color: #3b5998;
+          &:active,
+          &:focus,
+          &:hover {
+            color: white;
+            background-color: #3b5998;
+          }
+        }
+
+        &.fa-github, &.fa-github-square, &.fa-github-alt {
+          color: #333;
+          &:active,
+          &:focus,
+          &:hover {
+            color: #fafafa;
+            background-color: #333;
+          }
+        }
+
+        &.fa-instagram {
+          color: #405de6;
+          &:active,
+          &:focus,
+          &:hover {
+            color: white;
+            background-color: #405de6;
+          }
+        }
+
+        &.fa-twitch {
+          color: #6441a5;
+          &:active,
+          &:focus,
+          &:hover {
+            color: #f1f1f1;
+            background-color: #6441a5;
+          }
+        }
+      }
+    }
+  }
+}
