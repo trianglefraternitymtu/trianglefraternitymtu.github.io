@@ -1,7 +1,14 @@
 // Global styling for this template
 body {
+  padding-top: 54px;
   overflow-x: hidden;
   @include body-font;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 98px;
+  }
 }
 
 p {
