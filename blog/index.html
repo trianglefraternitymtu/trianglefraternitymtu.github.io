@@ -20,8 +20,12 @@ title: Blog
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ post.title }}</h2>
+        {% if page.excerpt == page.content %}
+        <p class="card-text">{{ post.content | remove_first: post.excerpt | truncatewords: 150 }}</p>
+        {% else %}
         <p class="card-text">{{ post.excerpt | truncatewords: 150 }}</p>
-        <a href="{{ post.url }}" class="btn btn-primary">Read More <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
+        {% endif %}
+        <a href="{{ post.url }}" class="btn btn-primary">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
       </div>
       <div class="card-footer text-muted">
         <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
@@ -31,7 +35,7 @@ title: Blog
 
     {% if paginator.total_pages > 1 %}
     <nav aria-label="paginator">
-      <ul class="pagination justify-content-center">
+      <ul class="pagination blog-pagination justify-content-center">
         {% if paginator.previous_page %}
         <li class="page-item">
           <a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"><i class="fa fa-angle-double-left" aria-hidden="true"></i>  Previous</a>
@@ -46,9 +50,9 @@ title: Blog
           {% if page == paginator.page %}
             <li class="page-item active"><a class="page-link">{{ page }}</a></li>
           {% elsif page == 1 %}
-            <li><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
+            <li class="page-item"><a class="page-link" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a></li>
           {% else %}
-            <li><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
+            <li class="page-item"><a class="page-link" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a></li>
           {% endif %}
         {% endfor %}
 

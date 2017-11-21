@@ -28,11 +28,26 @@
  * Pagination
  */
 
-.blog-pagination {
+ul.blog-pagination {
   margin-bottom: 4rem;
-}
-.blog-pagination > .btn {
-  border-radius: 2rem;
+
+  .page-link {
+    color: $primary;
+  }
+  li.page-item {
+    &.active {
+      .page-link {
+        color: white;
+        background-color: $primary;
+        border-color: $primary;
+      }
+    }
+    &.disabled {
+      .page-link {
+        color: $secondary;
+      }
+    }
+  }
 }
 
 /*
@@ -49,4 +64,20 @@
 .blog-post-meta {
   margin-bottom: 1.25rem;
   color: #999;
+}
+.blog-post-content {
+  figure {
+    @media (min-width: 768px) {
+      img {
+        // height: 300px;
+        width: 400px
+      }
+      &.float-left {
+        margin-right: 2em;
+      }
+      &.float-right {
+        margin-left: 2em;
+      }
+    }
+  }
 }
