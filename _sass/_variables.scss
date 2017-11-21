@@ -14,10 +14,19 @@ $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
 $black: #000 !default;
 
-$primary: #fed136 !default;
-
 $triangle-old-rose: #8a1538 !default;
 $triangle-gray: #7c878e !default;
 $triangle-yellow: #ffd900 !default;
 $triangle-light-gray: #d0d0ce !default;
 $triangle-black: #000000 !default;
+
+$husky-gold: #ffcd00 !default;
+$husky-black: #000000 !default;
+$husky-blue: #00bfd5 !default;
+$husky-green: #6ca438 !default;
+$husky-red: #ff4611 !default;
+$husky-gray: #8a8b8c !default;
+
+// $primary: #fed136 !default;
+$primary: $triangle-old-rose !default;
+$secondary: $triangle-gray !default;
