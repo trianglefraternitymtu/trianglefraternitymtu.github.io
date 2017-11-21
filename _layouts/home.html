@@ -33,7 +33,7 @@
           </div>
           {% endfor %}
         </div>
-        
+
         {% if page.cover-image-controls and page.cover-images.size > 1 %}
         <a class="carousel-control-prev" href="#cover-image-carousel" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -60,13 +60,22 @@
         <div class="row">
           {% for post in site.posts %}
           <div class="col-lg-4">
-            <h2>{{ post.title }}</h2>
-            {% if page.excerpt == page.content %}
-            <p>{{ post.content | remove_first: post.excerpt | truncatewords: 150 }}</p>
-            {% else %}
-            <p>{{ post.excerpt | truncatewords: 150 }}</p>
-            {% endif %}
-            <p><a class="btn btn-primary" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+            <div class="card">
+              <h4 class="card-header">{{ post.title }}</h4>
+              <div class="card-body">
+                <p class="card-text">
+                {% if page.excerpt == page.content %}
+                {{ post.content | remove_first: post.excerpt | truncatewords: 150 }}</p>
+                {% else %}
+                {{ post.excerpt | truncatewords: 150 }}
+                {% endif %}
+                </p>
+                <p><a class="btn btn-primary" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+              </div>
+              <div class="card-footer text-muted">
+                <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
+              </div>
+            </div>
           </div>
           {% if forloop.index >= 3 %}
           {% break %}
