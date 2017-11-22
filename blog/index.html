@@ -77,14 +77,15 @@ title: Blog
     </div>
 
     {% if site.spotlights.size > 0 %}
-    <div class="card sidebar-module">
+    <div class="card text-center sidebar-module my-3">
       <div class="card-body">
-        <div id="spotlights" class="carousel slide {{ include.classes }}" data-ride="carousel" data-interval="10000">
+        <div id="spotlights" class="carousel slide {{ include.classes }}" data-ride="carousel" data-interval="10000" data-pause="false">
           <div class="carousel-inner">
             {% for s in site.spotlights %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <img class="card-img-top rounded-circle mb-3 img-thumbnail" src="{{ s.cover-image }}" style="width:200;height:200" alt="spotlight image of {{ s.title }}">
-              <h4 class="card-title">{{ s.title }}</h4><h6 class="card-title">{% if s.init-year %}<em>-mtu{{ s.init-year }}</em>{% endif %}</h6>
+              <img class="card-img-top rounded-circle mb-3" src="{{ s.cover-image }}" style="width:200;height:200" alt="spotlight image of {{ s.title }}">
+              <h4 class="card-title">{{ s.title }}</h4>
+              {% if s.position %}<h6 class="card-subtitle mb-2 text-muted">{{ s.position }}</h6>{% endif %}
               <p class="card-text">{{ s.content | truncate: 160 }}</p>
             </div>
             {% endfor %}
