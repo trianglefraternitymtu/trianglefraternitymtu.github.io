@@ -52,7 +52,8 @@ defaults:
   - scope:
       type: "spotlights"
     values:
-      cover-image: http://placehold.it/200x200
+      cover-image: http://placehold.it/750x450
+      position: "Member"
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
