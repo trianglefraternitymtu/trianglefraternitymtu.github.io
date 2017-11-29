@@ -6,7 +6,10 @@
     {% include navbar.html %}
     <main role="main" class="container mt-3">
       <div class="blog-post">
-        <h1 class="blog-post-title">{{ page.title }}</h1>
+        <h1 class="blog-post-title">{{ page.title | capitalize }}</h1>
+        {% if page.author %}
+        <p class="lead"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Writen by {{ page.author | capitalize }}{% if page.author-init-year %} <em>-mtu{{ page.author-init-year }}</em>{% endif %}</p>
+        {% endif %}
         <nav aria-label="breadcrumb" role="navigation">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{% link index.md %}">Home</a></li>
@@ -44,17 +47,9 @@
           </a>
           {% endif %}
         </div>
+        <hr/>
         {% endif %}
-        <div class="row mb-0">
-          <div class="col-md-6">
-            {% if page.author %}
-            <p><i class="fa fa-user-circle-o" aria-hidden="true"></i> Writen by {{ page.author }}{% if page.author-init-year %} <em>-mtu{{ page.author-init-year }}</em>{% endif %}</p>
-            {% endif %}
-          </div>
-          <div class="col-md-6 text-right">
-            <p class="blog-post-meta"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ page.date | date_to_long_string }}</p>
-          </div>
-        </div>
+        <p class="blog-post-meta"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ page.date | date_to_long_string }}</p>
         <hr/>
         {% if page.excerpt == page.content %}
         <div class="blog-post-content">
