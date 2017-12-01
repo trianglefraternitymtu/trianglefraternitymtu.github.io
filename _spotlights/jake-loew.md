@@ -1,5 +1,5 @@
 ---
 init-year: 15
-cover-image: http://mtutriangle.org/wp-content/uploads/2016/08/JLoew.png
+cover-image: https://i.imgur.com/qWiTNnf.jpg
 ---
 Stuff about Jake goes here
