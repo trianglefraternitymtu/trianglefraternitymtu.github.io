@@ -60,10 +60,10 @@
         <div class="row">
           {% for post in site.posts %}
           <div class="col-lg-4">
-            <div class="card mb-4">
+            <div class="card mb-4 blog-post-preview">
               <h4 class="card-header">{{ post.title }}</h4>
               {% if post.cover-images %}
-              <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" style="width:750;height:300" alt="featured image from post on {{ post.date | date_to_long_string }}">
+              <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" alt="featured image from post on {{ post.date | date_to_long_string }}">
               {% endif %}
               <div class="card-body">
                 <p class="card-text">

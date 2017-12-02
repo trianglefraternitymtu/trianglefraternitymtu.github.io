@@ -14,9 +14,9 @@ title: Blog
 <div class="row">
   <div class="col-sm-8 blog-main">
     {% for post in paginator.posts %}
-    <div class="card mb-4">
+    <div class="card mb-4 blog-post-preview">
       {% if post.cover-images %}
-      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" style="width:750;height:300" alt="featured image from post on {{ post.date | date_to_long_string }}">
+      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" alt="featured image from post on {{ post.date | date_to_long_string }}">
       {% endif %}
       <div class="card-body">
         <h2 class="card-title">{{ post.title }}</h2>
