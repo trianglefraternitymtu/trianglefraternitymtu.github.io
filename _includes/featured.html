@@ -1,0 +1,19 @@
+<div class="row featured-content">
+  {% if side == "left" %}
+  {% assign side = "right" %}
+  <div class="col-md-6">
+    {{ include.caption | markdownify }}
+  </div>
+  <div class="col-md-6">
+    <img class="img-fluid rounded" src="{{ include.image }}" alt="featured image">
+  </div>
+  {% else %}
+  {% assign side = "left" %}
+  <div class="col-md-6">
+    <img class="img-fluid rounded" src="{{ include.image }}" alt="featured image">
+  </div>
+  <div class="col-md-6">
+    {{ include.caption | markdownify }}
+  </div>
+  {% endif %}
+</div>
