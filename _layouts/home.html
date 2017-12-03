@@ -26,8 +26,7 @@
             <img src="{{i.image-link}}" class="img-fluid w-100" alt="home page cover image {{ forloop.index }}"/>
             {% if i.caption %}
             <div class="carousel-caption text-{{ i.caption.position | default: "left" }}">
-              <h2>{{ i.caption.header }}</h2>
-              <p>{{ i.caption.text }}</p>
+              {{ i.caption.text | markdownify}}
             </div>
             {% endif %}
           </div>
@@ -113,7 +112,7 @@
                     <h4 class="subheading">{{ t.header }}</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">{{ t.caption }}</p>
+                    <div class="text-muted">{{ t.caption | markdownify}}</div>
                   </div>
                 </div>
               </li>
