@@ -25,7 +25,7 @@
           <div class="carousel-item {% if forloop.first %}active{% endif %}">
             <img src="{{i.image-link}}" class="img-fluid w-100" alt="home page cover image {{ forloop.index }}"/>
             {% if i.caption %}
-            <div class="carousel-caption text-{{ i.caption.position | default: "left" }}">
+            <div class="carousel-caption text-{{ i.caption.position | default: "left" }} float-{{ i.caption.position | default: "left" }} px-2">
               {{ i.caption.text | markdownify}}
             </div>
             {% endif %}
