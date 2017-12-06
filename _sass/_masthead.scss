@@ -46,6 +46,11 @@ header.masthead {
         @include heading-font;
       }
     }
+    img {
+      width: 100%;
+      object-fit: cover;
+      max-height: 50em;
+    }
   }
 }
 
