@@ -31,7 +31,7 @@ permalink: /get-involved/alumni
         </ul>
         <div class="card-footer text-center">
           <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image">
-          <img class="aligncenter" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0">
+          <img class="aligncenter" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="pixel" width="1" height="1" border="0">
         </div>
       </form>
     </div>
@@ -52,7 +52,7 @@ permalink: /get-involved/alumni
         </ul>
         <div class="card-footer text-center">
           <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image">
-          <img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0">
+          <img src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="pixel" width="1" height="1" border="0">
         </div>
       </form>
     </div>
@@ -83,7 +83,7 @@ permalink: /get-involved/alumni
         </ul>
         <div class="card-footer text-center">
           <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_subscribeCC_LG.gif" type="image">
-          <img class="aligncenter" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="" width="1" height="1" border="0">
+          <img class="aligncenter" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" alt="pixel" width="1" height="1" border="0">
         </div>
       </form>
     </div>
