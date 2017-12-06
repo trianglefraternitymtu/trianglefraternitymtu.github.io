@@ -1,8 +1,26 @@
 ---
 date: 2017-10-15T10:00:00
+cover-images:
+  - image-link: https://i.imgur.com/4uU1XMG.jpg
+    caption:
+      header: Header Left
+      text: This is a left caption
+      position: left
+  - image-link: https://i.imgur.com/z5yOwWJ.jpg
+    caption:
+      header: Header right
+      text: This is a right caption
+      position: center
+  - image-link: https://i.imgur.com/wis22Qo.jpg
+    caption:
+      header: Header right
+      text: This is a right caption
+      position: right
+cover-image-controls: false
+cover-image-indicators: false
 ---
 
-{% include featured.html image="https://i.imgur.com/wis22Qo.jpg" caption="
+{% include featured.html image="https://i.imgur.com/pMNGIxb.jpg" caption="
 # Another test header
 
 This is a paragraph
@@ -16,29 +34,13 @@ asdfasdf
 - list2
 - list3" %}
 
-{% include featured.html image="https://i.imgur.com/pMNGIxb.jpg"%}
-
 {% include featured.html image="https://i.imgur.com/J7NREqe.jpg"%}
-
-{% include featured.html image="https://i.imgur.com/4uU1XMG.jpg"%}
 
 {% include featured.html image="https://i.imgur.com/0Ba5HSC.jpg"%}
 
-{% include featured.html image="https://i.imgur.com/ejp1SZd.jpg"%}
-
 {% include featured.html image="https://i.imgur.com/X5rVf2o.jpg"%}
 
-{% include featured.html image="https://i.imgur.com/wC89dnP.jpg"%}
-
 {% include featured.html image="https://i.imgur.com/1rB3RAA.jpg"%}
-
-{% include featured.html image="https://i.imgur.com/A6n4bbg.jpg"%}
-
-{% include featured.html image="https://i.imgur.com/4qQvpru.jpg"%}
-
-{% include featured.html image="https://i.imgur.com/GU597gN.jpg"%}
-
-{% include featured.html image="https://i.imgur.com/z5yOwWJ.jpg"%}
 
 {% include featured.html image="https://i.imgur.com/2BpmOqS.jpg"%}
 
