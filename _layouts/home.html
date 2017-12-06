@@ -119,11 +119,13 @@
               </li>
               {% if forloop.last == true %}
               <li {% if mod == 1 %}class="timeline-inverted"{% endif %}>
-                <div class="timeline-image">
-                  <h4>Be Part
+                <a href="{% link actives.md %}">
+                  <div class="timeline-image">
+                    <h4>Be Part
                     <br>Of Our
                     <br>Story!</h4>
-                </div>
+                  </div>
+                </a>
               </li>
               {% endif %}
               {% endfor %}
