@@ -2,49 +2,12 @@
 header.masthead {
   text-align: center;
   color: white;
-  // background-image: url('../img/header-bg.jpg');
-  // background-repeat: no-repeat;
-  // background-attachment: scroll;
-  // background-position: center center;
-  @include background-cover;
-  .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px;
-    .intro-lead-in {
-      font-size: 22px;
-      font-style: italic;
-      line-height: 22px;
-      margin-bottom: 25px;
-      @include serif-font;
-    }
-    .intro-heading {
-      font-size: 50px;
-      font-weight: 700;
-      line-height: 50px;
-      margin-bottom: 25px;
-      @include heading-font;
-    }
-  }
 }
 @media(min-width:768px) {
   header.masthead {
-    .intro-text {
-      padding-top: 300px;
-      padding-bottom: 200px;
-      .intro-lead-in {
-        font-size: 40px;
-        font-style: italic;
-        line-height: 40px;
-        margin-bottom: 25px;
-        @include serif-font;
-      }
-      .intro-heading {
-        font-size: 75px;
-        font-weight: 700;
-        line-height: 75px;
-        margin-bottom: 50px;
-        @include heading-font;
-      }
+    .carousel-caption {
+      // background-color: rgba($gray-900, 0.5);
+      // width: fit-content;
     }
     img {
       width: 100%;
@@ -53,39 +16,3 @@ header.masthead {
     }
   }
 }
-
-/*
- * Page header carousel
- */
-
-/* Carousel base class */
-// #cover-image-carousel .carousel {
-//   margin-bottom: 4rem;
-// }
-// /* Since positioning the image, we need to help out the caption */
-// #cover-image-carousel .carousel-caption {
-//   bottom: 3rem;
-//   z-index: 10;
-// }
-//
-// @media (min-width: 40em) {
-//   /* Bump up size of carousel content */
-//   #cover-image-carousel .carousel-caption p {
-//     margin-bottom: 1.25rem;
-//     font-size: 1.25rem;
-//     line-height: 1.4;
-//   }
-//
-// /* Declare heights because of positioning of img element */
-// #cover-image-carousel .carousel-item {
-//   height: 32rem;
-//   background-color: #777;
-// }
-//
-// #cover-image-carousel .carousel-item > img {
-//   position: absolute;
-//   top: 0;
-//   left: 0;
-//   min-width: 100%;
-//   height: 32rem;
-// }
