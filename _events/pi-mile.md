@@ -3,18 +3,24 @@ date: 2017-10-15T10:00:00
 cover-images:
   - image-link: https://i.imgur.com/4uU1XMG.jpg
     caption:
-      header: Header Left
-      text: This is a left caption
+      text: >
+        # Header Left
+
+        This is a left caption
       position: left
   - image-link: https://i.imgur.com/z5yOwWJ.jpg
     caption:
-      header: Header right
-      text: This is a right caption
+      text: >
+        # Header center
+
+        This is a center caption
       position: center
   - image-link: https://i.imgur.com/wis22Qo.jpg
     caption:
-      header: Header right
-      text: This is a right caption
+      text: >
+        # Header right
+
+        This is a right caption
       position: right
 cover-image-controls: false
 cover-image-indicators: false
