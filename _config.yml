@@ -37,6 +37,8 @@ collections:
     permalink: /:title
   spotlights:
     output: false
+  docs:
+    output: true
 
 defaults:
   - scope:
