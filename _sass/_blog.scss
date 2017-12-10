@@ -81,3 +81,16 @@ ul.blog-pagination {
     }
   }
 }
+
+/*
+ * Blog Previews
+ */
+
+.blog-post-preview {
+  img.card-img-top {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    max-height: 300px;
+  }
+}
