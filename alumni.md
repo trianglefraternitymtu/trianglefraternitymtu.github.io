@@ -24,7 +24,7 @@ While the Alumni Board is comprised of specific positions, we encourage any and 
 <div class="row">
 <div class="col-lg-4 mb-4">
 {% include paypal-card.html paypal-id="VDS37JZR7LQAQ" header="Alumni Organization" content="
-- Reimbursement of Pledge Fees for Dean’s List achievers
+- Reimbursement of Pledge Fees for Dean's List achievers
 - Equipment for Winter Carnival
 - Travel assistances for National events
 - National Alumni Chapter Fee

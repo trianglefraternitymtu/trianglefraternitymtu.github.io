@@ -8,7 +8,8 @@
 <div class="media member-spotlight mb-3">
   <img class="align-self-start mr-3" src="{{ spotlight.cover-image}}" alt="spotlight image of {{ spotlight.title }}">
   <div class="media-body">
-    <h5 class="mt-0">{{ spotlight.title }}</h5>
+    <h5 class="mt-0">{{ spotlight.title }}{% if spotlight.init-year %} <em>-mtu{{ spotlight.init-year }}</em>{% endif %}</h5>
+    <h6 class="subtitle text-muted">{{ spotlight.position }}</h6>
     {{ spotlight.content | markdownify }}
     {{ include.content | markdownify }}
   </div>
