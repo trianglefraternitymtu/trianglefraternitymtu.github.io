@@ -4,15 +4,18 @@
 
   <body id="page-top">
     {% include navbar.html %}
+    {% include carousel-header.html interval="10000" %}
     <main role="main" class="container mt-3">
-      <nav aria-label="breadcrumb" role="navigation">
+      <!-- <nav aria-label="breadcrumb" role="navigation">
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="{% link index.md %}">Home</a></li>
           <li class="breadcrumb-item"><a href="#">Events</a></li>
           <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
         </ol>
-      </nav>
-      {{ content }}
+      </nav> -->
+      <div class="event-content">
+        {{ content }}
+      </div>
     </main>
     {% include footer.html %}
     {% include scripts.html %}
