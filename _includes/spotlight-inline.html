@@ -1,0 +1,16 @@
+{% if include.spotlight.title %}
+{% assign spotlight = include.spotlight %}
+{% else %}
+{% assign spotlight = site.spotlights | where:"title",include.spotlight | first %}
+{% endif %}
+
+{% if spotlight.title %}
+<div class="media member-spotlight mb-3">
+  <img class="align-self-start mr-3" src="{{ spotlight.cover-image}}" alt="spotlight image of {{ spotlight.title }}">
+  <div class="media-body">
+    <h5 class="mt-0">{{ spotlight.title }}</h5>
+    {{ spotlight.content | markdownify }}
+    {{ include.content | markdownify }}
+  </div>
+</div>
+{% endif %}

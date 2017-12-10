@@ -4,6 +4,20 @@ title: Alumni
 permalink: /get-involved/alumni
 ---
 
+# Alumni Board
+While the Alumni Board is comprised of specific positions, we encourage any and everyone to be active within the alumni group. Even if you can only spare a few minutes of your time, we could always use it! Please contact [Alex Ott](mailto:ajott@mtu.edu) to get on our Alumni Executive Board email list.
+
+{% include spotlight-inline.html spotlight="Wilmer Lidke" %}
+
+{% include spotlight-inline.html spotlight="Troy Bouman" %}
+
+{% include spotlight-inline.html spotlight="Alex Ott" %}
+
+# Committees
+
+## Member Development Committee
+{% include spotlight-inline.html spotlight="Mike Spenle" %}
+
 # Donations
 
 <!-- Donation cards -->
