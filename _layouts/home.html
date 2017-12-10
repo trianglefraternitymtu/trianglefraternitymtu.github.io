@@ -140,57 +140,11 @@
     </section id="spotlights">
       <div class="container">
         <div class="card-deck">
-          {% for spotlight in site.spotlights %}
-          <div class="card h-100 member-spotlight mb-4">
-            <img class="card-img-top" src="{{ spotlight.cover-image}}" alt="spotlight image of {{ s.title }}">
-            <div class="card-body">
-              <h4 class="card-title">{{ spotlight.title }}</h4>
-              <h6 class="card-subtitle mb-2 text-muted">{{ spotlight.position }}</h6>
-              <p class="card-text">{{ spotlight.content }}</p>
-            </div>
-            <div class="card-footer">
-              <ul class="list-inline social-buttons">
-                {% if spotlight.twitter_username %}
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/{{ spotlight.twitter_username }}"><i class="fa fa-twitter text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.facebook_username %}
-                <li class="list-inline-item">
-                  <a href="https://facebook.com/{{ spotlight.facebook_username }}"><i class="fa fa-facebook-official text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.instagram_username %}
-                <li class="list-inline-item">
-                  <a href="https://instagram.com/{{ spotlight.instagram_username }}"><i class="fa fa-instagram text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.github_username %}
-                <li class="list-inline-item">
-                  <a href="https://github.com/{{ spotlight.github_username }}"><i class="fa fa-github text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.linkedin_id %}
-                <li class="list-inline-item">
-                  <a href="https://linkedin.com/in/{{ spotlight.linkedin_id }}"><i class="fa fa-linkedin-square text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.twitch_username %}
-                <li class="list-inline-item">
-                  <a href="https://twitch.tv/{{ spotlight.twitch_username }}"><i class="fa fa-twitch text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.email_address %}
-                <li class="list-inline-item">
-                  <a href="mailto:{{ spotlight.email_address}}"><i class="fa fa-envelope text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-              </ul>
-            </div>
-          </div>
-          {% if forloop.index >= 3 %}
-          {% break %}
-          {% endif %}
+          {% for sl in site.spotlights %}
+            {% include spotlight-card.html spotlight=sl %}
+            {% if forloop.index >= 3 %}
+              {% break %}
+            {% endif %}
           {% endfor %}
         </div>
       </div>
