@@ -40,15 +40,75 @@ asdfasdf
 - list2
 - list3" %}
 
-{% include featured.html image="https://i.imgur.com/J7NREqe.jpg"%}
+{% include featured.html image="https://i.imgur.com/J7NREqe.jpg" caption="
+# Another test header
 
-{% include featured.html image="https://i.imgur.com/0Ba5HSC.jpg"%}
+This is a paragraph
+asdfasdf
 
-{% include featured.html image="https://i.imgur.com/X5rVf2o.jpg"%}
 
-{% include featured.html image="https://i.imgur.com/1rB3RAA.jpg"%}
+asdfasdfasdf
 
-{% include featured.html image="https://i.imgur.com/2BpmOqS.jpg"%}
+asdfasdf
+- list1
+- list2
+- list3" %}
+
+{% include featured.html image="https://i.imgur.com/0Ba5HSC.jpg" caption="
+# Another test header
+
+This is a paragraph
+asdfasdf
+
+
+asdfasdfasdf
+
+asdfasdf
+- list1
+- list2
+- list3" %}
+
+{% include featured.html image="https://i.imgur.com/X5rVf2o.jpg" caption="
+# Another test header
+
+This is a paragraph
+asdfasdf
+
+
+asdfasdfasdf
+
+asdfasdf
+- list1
+- list2
+- list3" %}
+
+{% include featured.html image="https://i.imgur.com/1rB3RAA.jpg" caption="
+# Another test header
+
+This is a paragraph
+asdfasdf
+
+
+asdfasdfasdf
+
+asdfasdf
+- list1
+- list2
+- list3" %}
+
+{% include featured.html image="https://i.imgur.com/2BpmOqS.jpg" caption="
+# Another test header
+
+This is a paragraph
+asdfasdf
+
+
+asdfasdfasdf
+
+asdfasdf
+- list1
+- list2
+- list3" %}
 
 ### 2016
 
