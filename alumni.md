@@ -27,7 +27,7 @@ While the Alumni Board is comprised of specific positions, we encourage any and 
 - Reimbursement of Pledge Fees for Dean's List achievers
 - Equipment for Winter Carnival
 - Travel assistances for National events
-- National Alumni Chapter Fee
+- Alumni National Chapter Fee
 "%}
 </div>
 <div class="col-lg-4 mb-4">
