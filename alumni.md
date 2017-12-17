@@ -15,6 +15,8 @@ While the Alumni Board is comprised of specific positions, we encourage any and 
 
 # Committees
 
+Committees are established to better serve the Alumni and Active Organizations. While there may be any number of provisional committees at any time, these committees in particular are intended to provide long-term and in-depth support to the Fraternity.
+
 ## Member Development Committee
 {% include spotlight-inline.html spotlight="Mike Spenle" %}
 
