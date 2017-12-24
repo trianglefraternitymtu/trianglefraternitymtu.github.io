@@ -1,6 +1,11 @@
-<div class="row featured-content">
-  {% if side == "left" %}
-  {% assign side = "right" %}
+{% if page_feature == nil %}
+{% assign page_feature = 0 %}
+{% endif %}
+{% assign side = page_feature | modulo: 2 %}
+{% assign default_id = 'feature-' | append: page_feature %}
+
+<div class="row featured-content my-5" id="{{ include.id | default: default_id }}">
+  {% if side == 1 %}
   <div class="col-md-6 order-md-1 p-0">
     <img class="img-fluid" src="{{ include.image }}" alt="featured image">
   </div>
@@ -8,7 +13,6 @@
     {{ include.caption | markdownify }}
   </div>
   {% else %}
-  {% assign side = "left" %}
   <div class="col-md-6 order-md-0 p-0">
     <img class="img-fluid" src="{{ include.image }}" alt="featured image">
   </div>
@@ -17,3 +21,5 @@
   </div>
   {% endif %}
 </div>
+
+{% assign page_feature = page_feature | plus: 1 %}
