@@ -1,5 +1,4 @@
 ---
-date: 2017-10-15T10:00:00
 cover-images:
   - image-link: https://i.imgur.com/Gb2OZKK.jpg
     caption:
