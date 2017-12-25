@@ -1,21 +1,14 @@
 ---
 date: 2017-10-15T10:00:00
 cover-images:
-  - image-link: https://i.imgur.com/4uU1XMG.jpg
+  - image-link: https://i.imgur.com/Gb2OZKK.jpg
     caption:
       text: >
         # Header Left
 
         This is a left caption
       position: left
-  - image-link: https://i.imgur.com/z5yOwWJ.jpg
-    caption:
-      text: >
-        # Header center
-
-        This is a center caption
-      position: center
-  - image-link: https://i.imgur.com/wis22Qo.jpg
+  - image-link: https://i.imgur.com/4uU1XMG.jpg
     caption:
       text: >
         # Header right
@@ -26,98 +19,34 @@ cover-image-controls: false
 cover-image-indicators: false
 ---
 
-{% include featured.html image="https://i.imgur.com/pMNGIxb.jpg" caption="
-# Another test header
+# Pi Mile
 
-This is a paragraph
-asdfasdf
+The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by the Michigan Tech Chapter of Triangle Fraternity, organized to benefit the Western UP Food Bank. The Pi-Mile takes place through Michigan Tech’s campus, and along College Ave and Cliff Drive.
 
+<!-- [Officer Devo Image](https://i.imgur.com/0Ba5HSC.jpg) -->
 
-asdfasdfasdf
+<!-- [Friendly Picture](https://i.imgur.com/pMNGIxb.jpg) -->
 
-asdfasdf
-- list1
-- list2
-- list3" %}
+{% include featured.html image="https://i.imgur.com/hAW9qWD.jpg" caption="
+# Runners do runner things
+" %}
 
-{% include featured.html image="https://i.imgur.com/J7NREqe.jpg" caption="
-# Another test header
+{% include featured.html image="https://i.imgur.com/f2KrMvW.jpg" caption="
+# Pies for Charity
 
-This is a paragraph
-asdfasdf
+The sisters of [Alpha Gammer Delta](https://www.involvement.mtu.edu/organization/alpha-gamma-delta) sell pies by the finish line for charity.
+" %}
 
+{% include image-section.html image="https://i.imgur.com/wis22Qo.jpg" content='
+## Registration is Open
 
-asdfasdfasdf
+Courtesy of the [Inter-Residence Housing Council (IRHC)](https://www.involvement.mtu.edu/organization/IRHC), the first **100** people who signup will receive a **half-off** discount on the registration fee. Signup before the run and receive a free T-shirt when you sign-in at the race, while supplies last.
 
-asdfasdf
-- list1
-- list2
-- list3" %}
+<a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfGi84BaxRd-pEH-Gh9f9PQNTwv2DryU3lhtg-jonIrt3UYWQ/viewform" role="button">Signup</a>' %}
 
-{% include featured.html image="https://i.imgur.com/0Ba5HSC.jpg" caption="
-# Another test header
-
-This is a paragraph
-asdfasdf
-
-
-asdfasdfasdf
-
-asdfasdf
-- list1
-- list2
-- list3" %}
-
-{% include featured.html image="https://i.imgur.com/X5rVf2o.jpg" caption="
-# Another test header
-
-This is a paragraph
-asdfasdf
-
-
-asdfasdfasdf
-
-asdfasdf
-- list1
-- list2
-- list3" %}
-
-{% include featured.html image="https://i.imgur.com/1rB3RAA.jpg" caption="
-# Another test header
-
-This is a paragraph
-asdfasdf
-
-
-asdfasdfasdf
-
-asdfasdf
-- list1
-- list2
-- list3" %}
-
-{% include featured.html image="https://i.imgur.com/2BpmOqS.jpg" caption="
-# Another test header
-
-This is a paragraph
-asdfasdf
-
-
-asdfasdfasdf
-
-asdfasdf
-- list1
-- list2
-- list3" %}
-
-### 2016
-
-<iframe allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="imgur-embed-iframe-pub imgur-embed-iframe-pub-a-3PMjB-true-540" scrolling="no" src="http://imgur.com/a/3PMjB/embed?pub=true&amp;ref=http%3A%2F%2Fmtutriangle.org%2Fpi-mile%2F&amp;w=540" id="imgur-embed-iframe-pub-a-3PMjB" style="height: 500px; width: 540px; margin: 10px 0px; padding: 0px;"></iframe>
-
-### 2014
+<!-- <iframe allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="imgur-embed-iframe-pub imgur-embed-iframe-pub-a-3PMjB-true-540" scrolling="no" src="http://imgur.com/a/3PMjB/embed?pub=true&amp;ref=http%3A%2F%2Fmtutriangle.org%2Fpi-mile%2F&amp;w=540" id="imgur-embed-iframe-pub-a-3PMjB" style="height: 500px; width: 540px; margin: 10px 0px; padding: 0px;"></iframe>
 
 <iframe allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="imgur-embed-iframe-pub imgur-embed-iframe-pub-a-FCwHy-true-540" scrolling="no" src="http://imgur.com/a/FCwHy/embed?pub=true&amp;ref=http%3A%2F%2Fmtutriangle.org%2Fpi-mile%2F&amp;w=540" id="imgur-embed-iframe-pub-a-FCwHy" style="height: 500px; width: 540px; margin: 10px 0px; padding: 0px;"></iframe>
 
-### 2013
-
 <iframe allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true" class="imgur-embed-iframe-pub imgur-embed-iframe-pub-a-rOyBG-true-540" scrolling="no" src="http://imgur.com/a/rOyBG/embed?pub=true&amp;ref=http%3A%2F%2Fmtutriangle.org%2Fpi-mile%2F&amp;w=540" id="imgur-embed-iframe-pub-a-rOyBG" style="height: 500px; width: 540px; margin: 10px 0px; padding: 0px;"></iframe>
+-->

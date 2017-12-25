@@ -16,9 +16,9 @@ p {
 }
 
 a {
-  color: $primary;
+  color: $triangle-yellow;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken($triangle-yellow, 10%);
   }
 }
 
@@ -213,4 +213,14 @@ ul.social-buttons {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.breadcrumb {
+  background-color: $triangle-light-gray;
+  a {
+    color: $primary;
+    &:hover {
+      color: darken($primary, 10%);
+    }
+  }
 }

@@ -9,14 +9,14 @@
   <div class="col-md-6 order-md-1 p-0">
     <img class="img-fluid" src="{{ include.image }}" alt="featured image">
   </div>
-  <div class="col-md-6 order-md-0 px-5 my-auto">
+  <div class="col-md-6 order-md-0 px-5 mt-4">
     {{ include.caption | markdownify }}
   </div>
   {% else %}
   <div class="col-md-6 order-md-0 p-0">
     <img class="img-fluid" src="{{ include.image }}" alt="featured image">
   </div>
-  <div class="col-md-6 order-md-1 px-5 my-auto">
+  <div class="col-md-6 order-md-1 px-5 mt-4">
     {{ include.caption | markdownify }}
   </div>
   {% endif %}
