@@ -16,9 +16,9 @@ p {
 }
 
 a {
-  color: $primary;
+  color: $triangle-yellow;
   &:hover {
-    color: darken($primary, 10%);
+    color: darken($triangle-yellow, 10%);
   }
 }
 
@@ -37,7 +37,7 @@ h6 {
 }
 
 section {
-  padding: 100px 0;
+  padding: 75px 0;
   h2.section-heading {
     font-size: 40px;
     margin-top: 0;
@@ -54,7 +54,7 @@ section {
 }
 @media(min-width:768px) {
   section {
-    padding: 150px 0;
+    padding: 100px 0;
   }
 }
 
@@ -203,6 +203,24 @@ ul.social-buttons {
           }
         }
       }
+    }
+  }
+}
+
+.bg-image-full {
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.breadcrumb {
+  background-color: $triangle-light-gray;
+  a {
+    color: $primary;
+    &:hover {
+      color: darken($primary, 10%);
     }
   }
 }

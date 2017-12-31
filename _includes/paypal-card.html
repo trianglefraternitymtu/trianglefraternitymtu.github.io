@@ -1,0 +1,13 @@
+<div class="card {{ include.class }}">
+  <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank">
+    <input name="cmd" type="hidden" value="_s-xclick">
+    <input name="hosted_button_id" type="hidden" value="{{ include.paypal-id }}">
+    <h3 class="card-header text-center">{{ include.header }}</h3>
+    <div class="card-body">
+      <div class="card-text">{{ include.content | markdownify }}</div>
+    </div>
+    <div class="card-footer text-center">
+      <input alt="PayPal - The safer, easier way to pay online!" name="submit" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" type="image">
+    </div>
+  </form>
+</div>
