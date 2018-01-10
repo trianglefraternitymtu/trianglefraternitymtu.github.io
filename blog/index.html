@@ -12,7 +12,7 @@ title: Blog
 }(document, 'script', 'facebook-jssdk'));</script>
 
 <div class="row">
-  <div class="col-sm-8 blog-main">
+  <div class="col-sm-12 col-lg-9 blog-main">
     {% for post in paginator.posts %}
     <div class="card mb-4 blog-post-preview">
       {% if post.cover-images %}
@@ -70,14 +70,14 @@ title: Blog
     {% endif %}
   </div><!-- /.blog-main -->
 
-  <aside class="col-sm-3 ml-sm-auto blog-sidebar">
-    <div class="sidebar-module sidebar-module-inset">
+  <aside class="col-sm-3 ml-sm-auto blog-sidebar d-print-none">
+    <div class="sidebar-module sidebar-module-inset d-none d-lg-block">
       <i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
       <p>The purpose of Triangle shall be to maintain a fraternity of engineers, architects and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</p>
     </div>
 
     {% if site.spotlights.size > 0 %}
-    <div class="card sidebar-module my-3 member-spotlight">
+    <div class="card sidebar-module my-3 member-spotlight d-none d-lg-block">
       <div id="spotlights" class="carousel slide {{ include.classes }}" data-ride="carousel" data-interval="10000" data-pause="false">
         <div class="carousel-inner">
           {% for s in site.spotlights %}
@@ -95,8 +95,19 @@ title: Blog
     </div>
     {% endif %}
 
-    <div class="sidebar-module">
-      <div class="fb-page" data-href="https://www.facebook.com/mtutriangle" data-tabs="timeline" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/mtutriangle" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/mtutriangle">Triangle Fraternity:  Michigan Tech</a></blockquote></div>
+    <div class="sidebar-module d-none d-lg-block">
+      <div class="fb-page"
+           data-href="https://www.facebook.com/{{ site.facebook_username }}"
+           data-tabs="timeline"
+           data-small-header="true"
+           data-adapt-container-width="true"
+           data-hide-cover="false"
+           data-show-facepile="true"
+           data-width="500px">
+        <blockquote cite="https://www.facebook.com/{{ site.facebook_username }}" class="fb-xfbml-parse-ignore">
+          <a href="https://www.facebook.com/{{ site.facebook_username }}">{{ site.title }} on Facebook</a>
+        </blockquote>
+      </div>
     </div>
   </aside><!-- /.blog-sidebar -->
 </div>

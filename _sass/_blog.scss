@@ -24,6 +24,10 @@
   }
 }
 
+.blog-sidebar {
+  width: 100%;
+}
+
 /*
  * Pagination
  */
@@ -67,6 +71,7 @@ ul.blog-pagination {
 }
 .blog-post-content {
   figure {
+    margin-top: 15px;
     @media (min-width: 768px) {
       img {
         // height: 300px;
@@ -79,6 +84,14 @@ ul.blog-pagination {
         margin-left: 2em;
       }
     }
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin: 15px 0px;
+  }
+
+  p {
+    margin: 10px 0px;
   }
 }
 

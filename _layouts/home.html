@@ -4,49 +4,7 @@
 
   <body id="page-top">
     {% include navbar.html %}
-    <header class="masthead">
-    {% if page.cover-images %}
-      <div id="cover-image-carousel" class="carousel slide" data-ride="carousel" data-interval="7500" data-pause="false">
-        {% if page.cover-image-indicators and page.cover-images.size > 1 %}
-        <ol class="carousel-indicators">
-          {% for i in page.cover-images %}
-          {% if i.image-link %}
-          <li data-target="#cover-image-carousel" data-slide-to="{{ forloop.index0 }}" {% if forloop.first %}class="active"{% endif %}></li>
-          {% endif %}
-          {% endfor %}
-        </ol>
-        {% endif %}
-
-        <div class="carousel-inner">
-          {% for i in page.cover-images %}
-          {% unless i.image-link %}
-            {% continue %}
-          {% endunless %}
-          <div class="carousel-item {% if forloop.first %}active{% endif %}">
-            <img src="{{i.image-link}}" class="img-fluid w-100" alt="home page cover image {{ forloop.index }}"/>
-            {% if i.caption %}
-            <div class="carousel-caption text-{{ i.caption.position | default: "left" }}">
-              <h2>{{ i.caption.header }}</h2>
-              <p>{{ i.caption.text }}</p>
-            </div>
-            {% endif %}
-          </div>
-          {% endfor %}
-        </div>
-
-        {% if page.cover-image-controls and page.cover-images.size > 1 %}
-        <a class="carousel-control-prev" href="#cover-image-carousel" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#cover-image-carousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-        {% endif %}
-      </div>
-      {% endif %}
-    </header>
+    {% include carousel-header.html %}
 
     {% if site.posts.size >= 3 %}
     <section id="news">
@@ -61,11 +19,11 @@
           {% for post in site.posts %}
           <div class="col-lg-4">
             <div class="card mb-4 blog-post-preview">
-              <h4 class="card-header">{{ post.title }}</h4>
               {% if post.cover-images %}
               <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" alt="featured image from post on {{ post.date | date_to_long_string }}">
               {% endif %}
               <div class="card-body">
+                <h4 class="card-title">{{ post.title }}</h4>
                 <p class="card-text">
                 {% if page.excerpt == page.content %}
                 {{ post.content | remove_first: post.excerpt | truncatewords: 150 }}</p>
@@ -113,17 +71,19 @@
                     <h4 class="subheading">{{ t.header }}</h4>
                   </div>
                   <div class="timeline-body">
-                    <p class="text-muted">{{ t.caption }}</p>
+                    <div class="text-muted">{{ t.caption | markdownify}}</div>
                   </div>
                 </div>
               </li>
               {% if forloop.last == true %}
               <li {% if mod == 1 %}class="timeline-inverted"{% endif %}>
-                <div class="timeline-image">
-                  <h4>Be Part
+                <a href="{% link actives.md %}">
+                  <div class="timeline-image">
+                    <h4>Be Part
                     <br>Of Our
                     <br>Story!</h4>
-                </div>
+                  </div>
+                </a>
               </li>
               {% endif %}
               {% endfor %}
@@ -135,60 +95,14 @@
     {% endif %}
 
     {% if site.spotlights.size >= 3 %}
-    </section id="spotlights">
+    <section id="spotlights" class="d-none d-md-block">
       <div class="container">
         <div class="card-deck">
-          {% for spotlight in site.spotlights %}
-          <div class="card h-100 member-spotlight mb-4">
-            <img class="card-img-top" src="{{ spotlight.cover-image}}" alt="spotlight image of {{ s.title }}">
-            <div class="card-body">
-              <h4 class="card-title">{{ spotlight.title }}</h4>
-              <h6 class="card-subtitle mb-2 text-muted">{{ spotlight.position }}</h6>
-              <p class="card-text">{{ spotlight.content }}</p>
-            </div>
-            <div class="card-footer">
-              <ul class="list-inline social-buttons">
-                {% if spotlight.twitter_username %}
-                <li class="list-inline-item">
-                  <a href="https://twitter.com/{{ spotlight.twitter_username }}"><i class="fa fa-twitter text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.facebook_username %}
-                <li class="list-inline-item">
-                  <a href="https://facebook.com/{{ spotlight.facebook_username }}"><i class="fa fa-facebook-official text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.instagram_username %}
-                <li class="list-inline-item">
-                  <a href="https://instagram.com/{{ spotlight.instagram_username }}"><i class="fa fa-instagram text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.github_username %}
-                <li class="list-inline-item">
-                  <a href="https://github.com/{{ spotlight.github_username }}"><i class="fa fa-github text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.linkedin_id %}
-                <li class="list-inline-item">
-                  <a href="https://linkedin.com/in/{{ spotlight.linkedin_id }}"><i class="fa fa-linkedin-square text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.twitch_username %}
-                <li class="list-inline-item">
-                  <a href="https://twitch.tv/{{ spotlight.twitch_username }}"><i class="fa fa-twitch text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-                {% if spotlight.email_address %}
-                <li class="list-inline-item">
-                  <a href="mailto:{{ spotlight.email_address}}"><i class="fa fa-envelope text-center" aria-hidden="true"></i></a>
-                </li>
-                {% endif %}
-              </ul>
-            </div>
-          </div>
-          {% if forloop.index >= 3 %}
-          {% break %}
-          {% endif %}
+          {% for sl in site.spotlights %}
+            {% include spotlight-card.html spotlight=sl %}
+            {% if forloop.index >= 3 %}
+              {% break %}
+            {% endif %}
           {% endfor %}
         </div>
       </div>

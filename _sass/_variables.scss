@@ -12,7 +12,7 @@ $gray-600: #868e96 !default;
 $gray-700: #495057 !default;
 $gray-800: #343a40 !default;
 $gray-900: #212529 !default;
-$black: #000 !default;
+// $black: #000 !default;
 
 // http://www.triangle.org/visual-identity/
 $triangle-old-rose: #8a1538 !default;
@@ -32,3 +32,4 @@ $husky-gray: #8a8b8c !default;
 // $primary: #fed136 !default;
 $primary: $triangle-old-rose !default;
 $secondary: $triangle-gray !default;
+$black: $triangle-black !default;

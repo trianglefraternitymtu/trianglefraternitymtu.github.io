@@ -1,5 +1,5 @@
 // Styling for the spotlight section
-.member-spotlight {
+.card.member-spotlight {
   // margin-bottom: 50px;
   text-align: center;
   img.card-img-top {
@@ -17,4 +17,11 @@
   // p {
   //   margin-top: 0;
   // }
+}
+
+.media.member-spotlight {
+  img {
+    max-width: 100px;
+    max-height: 150px;
+  }
 }
