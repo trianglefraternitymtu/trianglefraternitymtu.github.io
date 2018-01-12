@@ -1,18 +1,28 @@
 .event-content {
   text-align: center;
 
+  @media(min-width:768px) {
+      h1, h2, h3, h4, h5, h6 {
+        padding: 10px 15px 5px;
+      }
+
+      p {
+        padding: 0px 15px;
+      }
+      .featured-content {
+        margin: 0px 15px;
+      }
+  }
+
   h1, h2, h3, h4, h5, h6 {
-    padding: 10px 15px 5px;
     margin: auto auto;
   }
 
   p {
-    padding: 0px 15px;
     margin: auto auto;
   }
 
   .featured-content {
-    padding: 0 2.5em;
     text-align: left;
 
     h1, h2, h3, h4, h5, h6 {
