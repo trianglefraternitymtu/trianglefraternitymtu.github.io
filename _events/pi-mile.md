@@ -16,6 +16,7 @@ cover-images:
       position: right
 cover-image-controls: false
 cover-image-indicators: false
+excerpt: The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by the Michigan Tech Chapter of Triangle Fraternity, organized to benefit the Western UP Food Bank. The Pi-Mile takes place through Michigan Tech’s campus, along College Ave and Cliff Drive.
 ---
 
 # Pi Mile

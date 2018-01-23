@@ -12,7 +12,6 @@
   <meta property="og:title" content="{{ page.title | default: site.title | escape | capitalize }}"/>
   <meta property="og:url" content="{{ page.url | absolute_url }}"/>
   <meta property="og:site_name" content="{{ site.title | escape  capitalize}}"/>
-  <meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}"/>
   <meta property="og:image" content="{{ page.cover-images[0].image-link | default: page.cover-images[0] | default: front-page.cover-images[0].image-link }}"/>
 
   <!-- twitter card tags additive with the og: tags -->
@@ -21,8 +20,16 @@
   <meta name="twitter:domain" content="{{ site.url }}"/>
   <meta name="twitter:url" content="{{ page.url | absolute_url }}"/>
   <meta name="twitter:title" content="{{ page.title | default: site.title | escape | capitalize }}"/>
-  <meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | escape }}"/>
   <meta name="twitter:image" content="{{ page.cover-images[0].image-link | default: page.cover-images[0] | default: front-page.cover-images[0].image-link }}"/>
+
+  <!-- Description metadata is something else... -->
+  {% if page.excerpt and page.excerpt != page.content %}
+  <meta property="og:description" content="{{ page.excerpt | strip_html | normalize_whitespace | escape }}"/>
+  <meta name="twitter:description" content="{{ page.excerpt | strip_html | normalize_whitespace | escape }}"/>
+  {% else %}
+  <meta property="og:description" content="{{ site.description | strip_html | normalize_whitespace | escape }}"/>
+  <meta name="twitter:description" content="{{ site.description | strip_html | normalize_whitespace | escape }}"/>
+  {% endif %}
 
   <!-- Atom feed information -->
   {% feed_meta %}
