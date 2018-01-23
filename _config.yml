@@ -4,10 +4,13 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Triangle Fraternity at Michigan Technological University
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+description: > # this means to ignore newlines until "timezone:"
+  Our commitment to building better men dates back more than 100 years to our beginnings at the University of Illinois, where Triangle was founded by 16 civil engineers who chose to lead in the classroom, on the campus, and within the community.
+  Their choice was to form a group to support their needs and aspirations.
+  Like Triangle’s Founders, we all face choices every day and the choices we make can affect the rest of our lives.
+  Choosing the right fraternity is one of those choices – one that will have a profound impact on your time as a student, a career professional, and potential husband and father.
+  If you are looking for a group to support your academic goals and graduation, provide leadership and social opportunities and a connection with thousands of prominent alumni in the fields of engineering, architecture, and science, talk to Triangle.
+  Our members understand the challenges of a technical degree path and can be both a support system and valuable stepping stone on the path to a technical career.
 timezone: America/Detroit
 excerpt_separator: "<!-- excerpt -->"
 
