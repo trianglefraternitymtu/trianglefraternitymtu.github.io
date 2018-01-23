@@ -1,54 +1,45 @@
-{% if include.spotlight.title %}
-{% assign spotlight = include.spotlight %}
-{% else %}
-{% assign spotlight = site.spotlights | where:"title",include.spotlight | first %}
-{% endif %}
-
-{% if spotlight.title %}
 <div class="media member-spotlight mb-3">
-  <img class="align-self-start mr-3" src="{{ spotlight.cover-image}}" alt="spotlight image of {{ spotlight.title }}">
+  <img class="align-self-start mr-3" src="{{ include.cover-image}}" alt="spotlight image of {{ include.name }}">
   <div class="media-body">
-    <h5 class="mt-0">{{ spotlight.title }}{% if spotlight.init-year %} <em>-mtu{{ spotlight.init-year }}</em>{% endif %}</h5>
-    <h6 class="subtitle text-muted">{{ spotlight.position }}</h6>
-    {{ spotlight.content | markdownify }}
+    <h5 class="mt-0">{{ include.name }}{% if include.init-year %} <em>-mtu{{ include.init-year }}</em>{% endif %}</h5>
+    <h6 class="subtitle text-muted">{{ include.position }}</h6>
     {{ include.content | markdownify }}
     <ul class="list-inline social-buttons">
-      {% if spotlight.twitter_username %}
+      {% if include.twitter_username %}
       <li class="list-inline-item">
-        <a href="https://twitter.com/{{ spotlight.twitter_username }}"><i class="fa fa-twitter text-center" aria-hidden="true"></i></a>
+        <a href="https://twitter.com/{{ include.twitter_username }}"><i class="fa fa-twitter text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
-      {% if spotlight.facebook_username %}
+      {% if include.facebook_username %}
       <li class="list-inline-item">
-        <a href="https://facebook.com/{{ spotlight.facebook_username }}"><i class="fa fa-facebook-official text-center" aria-hidden="true"></i></a>
+        <a href="https://facebook.com/{{ include.facebook_username }}"><i class="fa fa-facebook-official text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
-      {% if spotlight.instagram_username %}
+      {% if include.instagram_username %}
       <li class="list-inline-item">
-        <a href="https://instagram.com/{{ spotlight.instagram_username }}"><i class="fa fa-instagram text-center" aria-hidden="true"></i></a>
+        <a href="https://instagram.com/{{ include.instagram_username }}"><i class="fa fa-instagram text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
-      {% if spotlight.github_username %}
+      {% if include.github_username %}
       <li class="list-inline-item">
-        <a href="https://github.com/{{ spotlight.github_username }}"><i class="fa fa-github text-center" aria-hidden="true"></i></a>
+        <a href="https://github.com/{{ include.github_username }}"><i class="fa fa-github text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
-      {% if spotlight.linkedin_id %}
+      {% if include.linkedin_id %}
       <li class="list-inline-item">
-        <a href="https://linkedin.com/in/{{ spotlight.linkedin_id }}"><i class="fa fa-linkedin-square text-center" aria-hidden="true"></i></a>
+        <a href="https://linkedin.com/in/{{ include.linkedin_id }}"><i class="fa fa-linkedin-square text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
-      {% if spotlight.twitch_username %}
+      {% if include.twitch_username %}
       <li class="list-inline-item">
-        <a href="https://twitch.tv/{{ spotlight.twitch_username }}"><i class="fa fa-twitch text-center" aria-hidden="true"></i></a>
+        <a href="https://twitch.tv/{{ include.twitch_username }}"><i class="fa fa-twitch text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
-      {% if spotlight.email_address %}
+      {% if include.email_address %}
       <li class="list-inline-item">
-        <a href="mailto:{{ spotlight.email_address }}"><i class="fa fa-envelope text-center" aria-hidden="true"></i></a>
+        <a href="mailto:{{ include.email_address }}"><i class="fa fa-envelope text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
     </ul>
   </div>
 </div>
-{% endif %}
