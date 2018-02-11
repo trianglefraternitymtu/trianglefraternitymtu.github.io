@@ -31,7 +31,7 @@
                 {{ post.excerpt | truncatewords: 150 }}
                 {% endif %}
                 </p>
-                <p><a class="btn btn-primary" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                <a class="btn btn-primary float-right" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
               </div>
               <div class="card-footer text-muted">
                 <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
@@ -53,7 +53,7 @@
         <div class="row">
           <div class="col-lg-12 text-center">
             <h2 class="section-heading text-uppercase">Our Story</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 class="section-subheading text-muted">Major events for {{ site.title }}</h3>
           </div>
         </div>
         <div class="row">
@@ -96,6 +96,13 @@
 
     {% if site.spotlights.size >= 3 %}
     <section id="spotlights" class="d-none d-md-block">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Membership Spotlights</h2>
+          <h3 class="section-subheading text-muted">Testimonial from a our membership, sharing their story.</h3>
+        </div>
+      </div>
       <div class="container">
         <div class="card-deck">
           {% for sl in site.spotlights %}
