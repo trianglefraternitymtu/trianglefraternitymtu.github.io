@@ -62,13 +62,21 @@
               {% for t in page.timeline %}
               {% assign mod = forloop.index | modulo: 2 %}
               <li {% if mod == 0 %}class="timeline-inverted"{% endif %}>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="{{ t.image }}" alt="timeline image {{ forloop.index }}">
-                </div>
+                {% if t.url %}
+                <a href="{{ t.url }}">
+                {% endif %}
+                  {% if t.image %}
+                  <div class="timeline-image">
+                    <img class="rounded-circle img-fluid" src="{{ t.image }}" alt="timeline image {{ forloop.index }}">
+                  </div>
+                  {% endif %}
+                {% if t.url %}
+                </a>
+                {% endif %}
                 <div class="timeline-panel">
                   <div class="timeline-heading">
-                    <h4>{{ t.date }}</h4>
-                    <h4 class="subheading">{{ t.header }}</h4>
+                    <h4>{{ t.header }}</h4>
+                    <h6 class="subheading">{{ t.date }}</h6>
                   </div>
                   <div class="timeline-body">
                     <div class="text-muted">{{ t.caption | markdownify}}</div>
@@ -100,7 +108,7 @@
       <div class="row">
         <div class="col-lg-12 text-center">
           <h2 class="section-heading text-uppercase">Membership Spotlights</h2>
-          <h3 class="section-subheading text-muted">Testimonial from a our membership, sharing their story.</h3>
+          <h3 class="section-subheading text-muted">Testimonials from our membership, sharing their stories.</h3>
         </div>
       </div>
       <div class="container">
