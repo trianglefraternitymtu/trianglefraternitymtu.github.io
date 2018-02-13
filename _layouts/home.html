@@ -31,7 +31,7 @@
                 {{ post.excerpt | truncatewords: 150 }}
                 {% endif %}
                 </p>
-                <p><a class="btn btn-primary" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a></p>
+                <a class="btn btn-primary float-right" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
               </div>
               <div class="card-footer text-muted">
                 <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
@@ -47,55 +47,17 @@
     </section>
     {% endif %}
 
-    {% if page.timeline %}
-    <section id="story">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 text-center">
-            <h2 class="section-heading text-uppercase">Our Story</h2>
-            <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-12">
-            <ul class="timeline">
-              {% for t in page.timeline %}
-              {% assign mod = forloop.index | modulo: 2 %}
-              <li {% if mod == 0 %}class="timeline-inverted"{% endif %}>
-                <div class="timeline-image">
-                  <img class="rounded-circle img-fluid" src="{{ t.image }}" alt="timeline image {{ forloop.index }}">
-                </div>
-                <div class="timeline-panel">
-                  <div class="timeline-heading">
-                    <h4>{{ t.date }}</h4>
-                    <h4 class="subheading">{{ t.header }}</h4>
-                  </div>
-                  <div class="timeline-body">
-                    <div class="text-muted">{{ t.caption | markdownify}}</div>
-                  </div>
-                </div>
-              </li>
-              {% if forloop.last == true %}
-              <li {% if mod == 1 %}class="timeline-inverted"{% endif %}>
-                <a href="{% link actives.md %}">
-                  <div class="timeline-image">
-                    <h4>Be Part
-                    <br>Of Our
-                    <br>Story!</h4>
-                  </div>
-                </a>
-              </li>
-              {% endif %}
-              {% endfor %}
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-    {% endif %}
+    {% include timeline.html %}
 
     {% if site.spotlights.size >= 3 %}
     <section id="spotlights" class="d-none d-md-block">
+      <div class="container">
+      <div class="row">
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">Membership Spotlights</h2>
+          <h3 class="section-subheading text-muted">Testimonials from our membership, sharing their stories.</h3>
+        </div>
+      </div>
       <div class="container">
         <div class="card-deck">
           {% for sl in site.spotlights %}

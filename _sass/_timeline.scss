@@ -71,6 +71,14 @@
         line-height: 14px;
         margin-top: 12px;
       }
+      img {
+        margin: 1% 1%;
+        object-fit: cover;
+        width: 98%;
+        height: 98%;
+        max-width: 98%;
+        max-height: 98%;
+      }
     }
     &.timeline-inverted > .timeline-panel {
       float: right;
@@ -94,7 +102,7 @@
     }
   }
   .timeline-heading {
-    h4 {
+    h1 h2 h3 h4 h5 h6 {
       margin-top: 0;
       color: inherit;
       &.subheading {
