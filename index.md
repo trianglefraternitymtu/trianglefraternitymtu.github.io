@@ -35,12 +35,12 @@ timeline:
     caption: The hard work of Brothers has finally paid off. The men who have joined the Colony have established the seeds of brotherhood and shared the values of Triangle with others. The group becomes a fully incorporated Chapter of Triangle Fraternity.
 
   - header: Re-Colonization at Michigan Technological University
-    date: April, 2008
+    date: October, 2008
     image: /assets/img/COA.png
     caption: After a number of years inactive, another group of individuals have been exploring the culture of Triangle. They have proven to The [National Council](https://www.triangle.org/national-leadership/national-council/) that Michigan Tech is ready for Triangle Fraternity, once again.
 
   - header: Re-Chartering of the Michigan Tech Chapter
-    date: April 17, 2012
+    date: April 14, 2012
     image: /assets/img/reclogo-globe.png
     url: https://www.involvement.mtu.edu/organization/triangle-fraternity
     caption: The Chapter of Triangle Fraternity at Michigan Technological University is reborn with a new membership, new ideas, and ready to get back to work.
