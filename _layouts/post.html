@@ -6,7 +6,7 @@
     {% include navbar.html %}
     <main role="main" class="container mt-3">
       <div class="blog-post">
-        <h1 class="blog-post-title">{{ page.title | capitalize }}</h1>
+        <h1 class="blog-post-title">{{ page.title }}</h1>
         {% if page.author %}
         <p class="lead"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Writen by {{ page.author | capitalize }}{% if page.author-init-year %} <em>-mtu{{ page.author-init-year }}</em>{% endif %}</p>
         {% endif %}
@@ -30,7 +30,7 @@
           <div class="carousel-inner">
             {% for i in page.cover-images %}
             <div class="carousel-item {% if forloop.first %}active{% endif %}">
-              <img src="{{i}}" class="img-fluid w-100 rounded" alt="cover image {{ forloop.index }}"/>
+              <img src="{{i}}" class="img-fluid rounded" alt="cover image {{ forloop.index }}"/>
             </div>
             {% endfor %}
           </div>

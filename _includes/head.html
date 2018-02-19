@@ -3,7 +3,7 @@
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
 
-  <title>{{ page.title | default: site.title | escape | capitalize }}</title>
+  <title>{{ page.title | default: site.title }}</title>
 
   {% assign front-page = site.pages | where: 'name', 'index.md' | first %}
 
