@@ -8,7 +8,7 @@
       <div class="blog-post">
         <h1 class="blog-post-title">{{ page.title }}</h1>
         {% if page.author %}
-        <p class="lead"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Writen by {{ page.author | capitalize }}{% if page.author-init-year %} <em>-mtu{{ page.author-init-year }}</em>{% endif %}</p>
+        <p class="lead"><i class="fa fa-user-circle-o" aria-hidden="true"></i> Writen by {{ page.author }}{% if page.author-init-year %} <em>-mtu{{ page.author-init-year }}</em>{% endif %}</p>
         {% endif %}
         <nav aria-label="breadcrumb" role="navigation">
           <ol class="breadcrumb">
