@@ -57,7 +57,17 @@ ul.blog-pagination {
 /*
  * Blog posts
  */
-
+ #blog-post-image-carousel.carousel {
+   .carousel-inner {
+     .carousel-item {
+       img{
+         width: 100%;
+         object-fit: cover;
+         max-height: 30em;
+       }
+     }
+   }
+ }
 .blog-post {
   margin-bottom: 4rem;
 }
