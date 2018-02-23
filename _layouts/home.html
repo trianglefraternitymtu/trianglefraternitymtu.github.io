@@ -26,9 +26,9 @@
                 <h4 class="card-title">{{ post.title }}</h4>
                 <p class="card-text">
                 {% if page.excerpt == page.content %}
-                {{ post.content | remove_first: post.excerpt | truncatewords: 150 }}</p>
+                {{ post.content | remove_first: post.excerpt | truncatewords: 35 }}</p>
                 {% else %}
-                {{ post.excerpt | truncatewords: 150 }}
+                {{ post.excerpt | truncatewords: 35 }}
                 {% endif %}
                 </p>
                 <a class="btn btn-primary float-right" href="{{ post.url }}" role="button">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
