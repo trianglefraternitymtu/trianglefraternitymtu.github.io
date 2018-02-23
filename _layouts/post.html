@@ -47,9 +47,8 @@
           </a>
           {% endif %}
         </div>
-        <hr/>
         {% endif %}
-        <p class="blog-post-meta"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ page.date | date_to_long_string }}</p>
+        <p class="blog-post-meta text-right"><i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ page.date | date_to_long_string }}</p>
         <hr/>
         {% if page.excerpt == page.content %}
         <div class="blog-post-content">
