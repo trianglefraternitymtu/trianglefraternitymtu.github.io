@@ -24,7 +24,7 @@ When it came time to write a description for the our statue for others to read a
 
 With a statue idea in hand and purpose to drive us, we got to work on bringing it into fruition. Building a month long statue, as I found out, was a vastly different experience than working on an overnight statue. For an overnight statue, the excitement of All Nighter is in the air. It's a more casual affair, and if you're doing it with your hall your RA is probably just there so they don't get fined. The cold doesn't cut as deep, and you can go inside whenever you want.
 
-{% include figure.html image="/assets/img/work_on_challenger.JPG" caption="Brother James, Brother Ryan, and Brother Jared hard at work on top of the statue." position="right" %}
+{% include figure.html image="/assets/img/work_on_challenger.jpg" caption="Brother James, Brother Ryan, and Brother Jared hard at work on top of the statue." position="right" %}
 
 While an overnight statue isn't easy by any means, I found out very quickly that a month long statue is a beast all of its own. You don't have a pile of snow delivered to your site whenever you need it by your friendly neighborhood front end loader. You have to haul all of the equipment down to the statue site every night, pull it all out of the box and set it up, then put it all back and take it back up to the house when you're done. And don't even get me started on the shoveling. It's kind of fun on the first day of statue, actually; you get a pretty decent workout in and singing "Hi ho, hi ho! It's off to work we go!" like you're one of the seven dwarves is pretty entertaining. But after a while you run out of Disney songs to sing and it's more reminiscent of clearing off the driveway than gathering snow to build a statue.
 
