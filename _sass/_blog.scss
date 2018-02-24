@@ -81,7 +81,7 @@ ul.blog-pagination {
 }
 .blog-post-content {
   figure {
-    margin-top: 15px;
+    // margin-top: 15px;
     @media (min-width: 768px) {
       figcaption {
         max-width: 350px;
@@ -134,6 +134,15 @@ ul.blog-pagination {
 
   p {
     margin: 10px 0px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: $triangle-yellow;
+    &:hover {
+      color: darken($triangle-yellow, 10%);
+    }
   }
 }
 
