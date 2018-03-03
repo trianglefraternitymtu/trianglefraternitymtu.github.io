@@ -9,9 +9,9 @@
 
   <!-- facebook open graph tags -->
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}"/>
-  <meta property="og:title" content="{{ page.title | default: site.title | escape | capitalize }}"/>
+  <meta property="og:title" content="{{ page.title | default: site.title }}"/>
   <meta property="og:url" content="{{ page.url | absolute_url }}"/>
-  <meta property="og:site_name" content="{{ site.title | escape  capitalize}}"/>
+  <meta property="og:site_name" content="{{ site.title }}"/>
   <meta property="og:image" content="{{ page.cover-images[0].image-link | default: page.cover-images[0] | default: front-page.cover-images[0].image-link }}"/>
 
   <!-- twitter card tags additive with the og: tags -->
@@ -19,7 +19,7 @@
   <meta name="twitter:site" content="@{{ site.twitter_username }}" />
   <meta name="twitter:domain" content="{{ site.url }}"/>
   <meta name="twitter:url" content="{{ page.url | absolute_url }}"/>
-  <meta name="twitter:title" content="{{ page.title | default: site.title | escape | capitalize }}"/>
+  <meta name="twitter:title" content="{{ page.title | default: site.title }}"/>
   <meta name="twitter:image" content="{{ page.cover-images[0].image-link | default: page.cover-images[0] | default: front-page.cover-images[0].image-link }}"/>
 
   <!-- Description metadata is something else... -->
