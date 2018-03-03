@@ -62,6 +62,7 @@ ul.blog-pagination {
      .carousel-item {
        img{
          width: 100%;
+         // object-position: top;
          object-fit: cover;
          max-height: 35em;
        }
