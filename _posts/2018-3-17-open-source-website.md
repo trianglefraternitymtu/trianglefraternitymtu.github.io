@@ -20,17 +20,30 @@ So even though a website on GitHub Pages can also take fair amount of effort, th
 that can make things easy. This site, as well as many others, uses a framework called [Jekyll](https://jekyllrb.com/).
 This "blog aware" framework allows us to create a easy to use website, and allows future members to write create
 Markdown files which get automatically generated into web pages. A number of other organizations on campus also
-use GitHub pages for their website, including [The Alley](http://makerspace.mtu.edu/) and the
-[Open Source Club](http://mtuopensource.club/).
+use GitHub Pages for their website, including [The Alley](http://makerspace.mtu.edu/) and the
+[Open Source Club](http://mtuopensource.club/), so we were fully aware of all the features that something like
+GitHub Pages can provide for us.
+
+One of the things that a GitHub Pages website provides is traceability. By having the website version controlled
+on GitHub, we can track important changes to the website over time and never lose any history. Changes are required
+to be made by people with a GitHub account. Students might see this as a burden at first, but free for everyone,
+and students can even get added perks when signing up with their school email through the
+[GitHub Education](https://education.github.com/) website.
+
+One of the issues with the previous website was exactly what one would expect when a website is managed by two
+different groups, the cohesion between different types of content and structure. This is another area where an
+open source website can greatly improve upon, openness and community building around a project or program.
+With an open source site on GitHub, both alumni members and active members can easily make changes to the website
+without any restrictions or fear of completely destroying some random server on the internet.
 
 # Future Preparations
 
-When it comes to version controlling your software, companies have a variety of options for configuration
-management systems available to them. We find that is important that our members who graduate and go out into
-the real world seeking software or web developer positions, to know how to use some of these applications,
-Git being one of them. With it's popularity among open source applications, GitHub has become a major player
-within many open source communities. We chose to use GitHub as it is a safe and secure way to making sure that
-our projects, and now our website, isn't lost in the sands of time.
+When it comes to version controlling your software, or anything that is important, companies have a variety of
+options for configuration management systems available to them. We find that is important that our members who
+graduate and go out into the real world seeking software or web developer positions, to know how to use some of
+these applications, Git being one of them. With it's popularity among open source applications, GitHub has become
+a major player within many open source communities. We chose to use GitHub as it is a safe and secure way to
+making sure that our projects, and now our website, isn't lost in the sands of time.
 
 {% include figure.html image="https://blog.travis-ci.com/images/student-developer-pack-logo.png" %}
 
