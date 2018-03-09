@@ -3,8 +3,8 @@ title: Progress towards Building Better Men
 author: Jeff Cottrell
 author-init-year: 94
 cover-images:
-  - /assets/img/small_check.jpg
-  - /assets/img/large_check.JPG
+  - /assets/img/posts/small_check.jpg
+  - /assets/img/posts/large_check.JPG
 ---
 Blah blah Blah
 
