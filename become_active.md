@@ -3,26 +3,25 @@ layout: page
 title: Become Active
 permalink: /get-involved/actives
 ---
-# Be Part of Our Story
+<h1><center>Be Part of Our Story</center></h1>
 
-Stuff about joining
+<center><b>Mission Statement</b></center>  
+<center><i>The purpose of Triangle shall be to maintain a fraternity of engineers, architects, and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</i></center>
 
-{% include featured.html image="http://placehold.it/400x300" caption="
+{% include featured.html image="https://i.imgur.com/zHkXyUj.jpg" caption="
 # What We're About
 
-The purpose of Triangle shall be to maintain a fraternity of engineers, architects, and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.
-
+As a fraternity, Triangle bases itself strongly in academics, friendship, and personal development. We are composed of solely engineers, architects, and scientists, making Triangle a community of men committed to academic excellence and the drive for knowledge. Triangle men hold each other to high standards of professionalism and integrity, which are exemplified in our mission statement.   
 
 " %}
 
-{% include featured.html image="http://placehold.it/400x300" caption="
-# Reasons to Join
+{% include featured.html image="https://i.imgur.com/iD0kfHH.jpg" caption="
+# Benefits to Joining
 
-In joining Triangle, you will become part of a brotherhood of over 27,000 men. This means that you will have life long friendships with your local brothers as well as connections to others across the nation. Our network of alumni is a huge advantage in looking for a job, especially in the fields of engineering, architecture, and science. In addition to these enduring friendships, we foster personal development, both socially and technically.
+In joining Triangle, you will become part of a brotherhood of over 29,000 men. This means that you will have life long friendships with your local brothers as well as connections to others across the nation. Our network of alumni is a huge advantage in looking for a job, especially in the fields of engineering, architecture, and science. In addition to these enduring friendships, we foster personal development, both socially and technically. Triangle aims to develop a family dynamic within its members, and provide an extensive support base to ensure academic and personal success.
 " %}
 
-{% include featured.html image="http://placehold.it/400x300" caption="
-# Frequently Asked Questions
+## Frequently Asked Questions
 
 Q: What is the minimum GPA requirement?
 
@@ -36,6 +35,6 @@ Q: Will I fall behind in my school work?
 
 A: Though Triangle holds many events throughout the semester, we always hold school as the most important. We strive for academic excellence and will always encourage the ideal of school coming first.
 
-" %}
+# Upcoming events
 
 <iframe src="https://calendar.google.com/calendar/embed?showTitle=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;src=triangle-rec%40mtu.edu&amp;color=%23875509&amp;ctz=America%2FNew_York" style="border-width:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
