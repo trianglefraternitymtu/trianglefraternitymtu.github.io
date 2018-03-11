@@ -224,3 +224,28 @@ ul.social-buttons {
     }
   }
 }
+
+.card.contributors {
+  .media {
+    img {
+      max-width: 64px;
+      max-height: 64px;
+    }
+  }
+  @media (min-width: 768px) {
+    &.float-left {
+      margin-right: 2em;
+    }
+    &.float-right {
+      margin-left: 2em;
+    }
+  }
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: $triangle-yellow;
+    &:hover {
+      color: darken($triangle-yellow, 10%);
+    }
+  }
+}
