@@ -1,24 +1,34 @@
 ---
 layout: page
-title: About
-permalink: /about/
+title: Chapter Operations
+excerpt: How Triangle Fraternity at Michigan Tech operates and organizes everything from communication to responsibilities.
+permalink: /about/operations
 ---
-{% include github-contributors.html %}
+## Organizational Structure
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+We've put a lot of effort and study into how we should be organized internally, not just to make sure that chair holders aren't overburdened with too much responsibility, but to help focus areas of interest for what the brother wants to do with a particular position. Thus, we've created a few groups of positions within our fraternity to adequately cover every aspect of the Chapter's day to day operations.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+The group of officers of the fraternity make up the Executive Board, which consist of; the President, the Vice President of Internal Affairs, the Vise President of External Affairs, Treasurer, and Secretary. This group is in charge of carrying out the goals and vision of the rest of the Chapter, and making sure that we keep on track from one year to the next.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+We also have the Internal Affairs committee, which is chaired by the Vice President of Internal Affairs. This committee is made up of; the House Manager, the Membership chair, the New Member Educator, and the Academic chair. Collectively, this committee is in charge of things that are internal to the fraternity, such is educating members about triangle and other skills, and organizing events like Founder's Day and summer work weekends.
 
+The other major committee that is used in the External Affairs committee, which is chaired by the Vice President of External Affairs. This committee is made up of; the Social chair, the Recruitment chairs, the Service and Philanthropy chair, and the Public Relations chair. Similar to the Internal Affairs committee, the External Affairs committee is in charge of everything that is external to the fraternity, so events like [Pi-Mile]({% link _events/pi-mile.md %}) and [Extra Life]({% link _events/extra-life.md %}) can happen without too much hassle.
 
-[jekyll-organization]: https://github.com/jekyll
+## Communication
 
-<div class="carousel slide carousel-fade float-right" data-ride="carousel" data-interval="10000" data-pause="false">
+One thing that the Chapter has learned, is how important the flow of information is to help organize everyone. The biggest improvement that we've made is the platform that we use to communicate with each other, [Slack](https://slack.com/). Previously, the Chapter had been using [Google Hangouts](https://hangouts.google.com/) to between members of the Chapter. For some time, this worked rather well because every student had Google Hangout available to them. The Chapter migrated away from Google Hangouts because we found that members would be turning off notifications for the Hangouts that were set up for the people to use as members felt that they were getting spammed with information. We also tried using multiple Google Hangouts, but that seemed to only make the problem worse and worse.
+
+Then came Slack. During [LTW](https://www.triangle.org/events/leadership-training-weekend/), we had discussed our situation with other chapters of Triangle and one of the things that were recommended to us was Slack, along with GroupMe, Facebook Messager, HipChat, Discord, and of course Google Hangouts. The idea of changing our messaging platform had never really crossed our mind as we had a lot of our alumni in our Hangouts. In hindsight, this was probably why so many of the active members had turned off their notifications in the first place, simply way to many people in one place. After returning to the arctic motherland that is Michigan Tech, we continued our research into the different platforms and finally concluding that Slack was probably the most viable alternative, and the Executive Board decided to give it a go and beta test it for awhile.
+
+Another area where automation has greatly helped out the Chapter, is with out social media presence. By using [Zapier](https://zapier.com/), we have posts on our social media synchronized between [Instagram](https://instagram.com/{{ site.instagram_username }}), [Facebook](https://facebook.com/{{ site.facebook_username }}), and [Twitter](https://twitter.com/{{ site.twitter_username }}). What we have Zapier configured to do for us, is to watch for posts on Instagram, and automatically copy the posts to the other two platforms, allowing us to have a unified presence without too much of a hassle for a ~~lazy~~ Public Relations chair.
+
+## Custom Tools
+
+{% include github-contributors.html position="right" %}
+
+We also highly encourage members to find ways to improve overall operational efficiencies of our Chapter. Sometimes, the more proactive brothers are willing to write some custom tools for the others to benefit from, or others will look into alternative toolsets that more closely resemble the Chapter's needs and wants. We are constantly improving how the Chapter is run and only gets better with time. Take this website for example, this was designed by a handful of brothers to be as easy to use and maintainable as possible. Allowing additions to be made with little to no effort, and requiring nothing more than a [wiki page]({{ site.github.wiki_url }}), attached to the GitHub repository for this website.
+
+<div class="carousel slide carousel-fade float-right ml-2" data-ride="carousel" data-interval="10000" data-pause="false" style="width:45%;">
   <div class="carousel-inner">
     {% for repo in site.github.public_repositories %}
     <div class="carousel-item {% if forloop.first %}active{% endif %}">
@@ -27,3 +37,7 @@ You can find the source code for Jekyll at GitHub:
     {% endfor %}
   </div>
 </div>
+
+paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph
+
+paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph   
