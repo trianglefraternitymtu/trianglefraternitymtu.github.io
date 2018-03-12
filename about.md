@@ -28,16 +28,6 @@ Another area where automation has greatly helped out the Chapter, is with out so
 
 We also highly encourage members to find ways to improve overall operational efficiencies of our Chapter. Sometimes, the more proactive brothers are willing to write some custom tools for the others to benefit from, or others will look into alternative toolsets that more closely resemble the Chapter's needs and wants. We are constantly improving how the Chapter is run and only gets better with time. Take this website for example, this was designed by a handful of brothers to be as easy to use and maintainable as possible. Allowing additions to be made with little to no effort, and requiring nothing more than a [wiki page]({{ site.github.wiki_url }}), attached to the GitHub repository for this website.
 
-<div class="carousel slide carousel-fade float-right ml-2" data-ride="carousel" data-interval="10000" data-pause="false" style="width:45%;">
-  <div class="carousel-inner">
-    {% for repo in site.github.public_repositories %}
-    <div class="carousel-item {% if forloop.first %}active{% endif %}">
-      {% include github-repo-card.html repo=repo %}
-    </div>
-    {% endfor %}
-  </div>
-</div>
-
 paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph
 
 paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph paragraph   
