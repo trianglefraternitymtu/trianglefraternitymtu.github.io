@@ -22,9 +22,9 @@ Then came Slack. During [LTW](https://www.triangle.org/events/leadership-trainin
 
 Another area where automation has greatly helped out the Chapter, is with out social media presence. By using [Zapier](https://zapier.com/), we have posts on our social media synchronized between [Instagram](https://instagram.com/{{ site.instagram_username }}), [Facebook](https://facebook.com/{{ site.facebook_username }}), and [Twitter](https://twitter.com/{{ site.twitter_username }}). What we have Zapier configured to do for us, is to watch for posts on Instagram, and automatically copy the posts to the other two platforms, allowing us to have a unified presence without too much of a hassle for a ~~lazy~~ Public Relations chair.
 
-## Custom Tools
-
 {% include github-contributors.html position="right" %}
+
+## Custom Tools
 
 We also highly encourage members to find ways to improve overall operational efficiencies of our Chapter. Sometimes, the more proactive brothers are willing to write some custom tools for the others to benefit from, or others will look into alternative toolsets that more closely resemble the Chapter's needs and wants. We are constantly improving how the Chapter is run and only gets better with time. Take this website for example, this was designed by a handful of brothers to be as easy to use and maintainable as possible. Allowing additions to be made with little to no effort, and requiring nothing more than a [wiki page]({{ site.github.wiki_url }}), attached to the GitHub repository for this website.
 
