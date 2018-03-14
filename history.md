@@ -34,7 +34,7 @@ timeline:
   - header: Pi-Mile for Charity
     image: https://i.imgur.com/xz7TRc9.jpg
     date: September, 2013
-    url: pi-mile.html
+    url: /pi-mile.html
     caption: Triangle Fraternity hosts the very first Pi-Mile for Charity. The Pi-Mile is an annual 5k (3.14 mile) walk/run that starts and ends in the middle of campus.
 
   - header: You became a Husky!
