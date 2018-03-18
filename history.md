@@ -1,22 +1,8 @@
 ---
-layout: home
-cover-images:
-  - image-link: http://mtutriangle.org/wp-content/uploads/2016/09/formalActive.jpg
-    caption:
-      position: left
-      text: >
-        # Header Left
-
-        this is some text
-  - image-link: http://mtutriangle.org/wp-content/uploads/2016/09/formalAlumni.jpg
-    caption:
-      position: right
-      text: >
-        # Header right
-
-        This is a right caption
-cover-image-controls: false
-cover-image-indicators: true
+layout: page
+title: Chapter History
+excerpt: The history of Triangle Fraternity at Michigan Tech.
+permalink: /about/
 timeline:
   - header: Our Humble Beginnings
     date: April 15, 1907
@@ -56,3 +42,5 @@ timeline:
     image: /assets/img/husky-statue-1600feature.jpg
     caption: You recently decided to start college at Michigan Technological University pursuing a degree in engineering, mathematics, or the sciences. You're starting to look into other organizations and clubs on campus, even looking into Greek Life at Michigan Tech.
 ---
+
+{% include timeline.html %}
