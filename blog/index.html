@@ -29,7 +29,7 @@ excerpt: Chapter News - Recent updates about Triangle Fraternity at Michigan Tec
         <a href="{{ post.url }}" class="btn btn-primary">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
       </div>
       <div class="card-footer text-muted">
-        <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_long_string }}{% if post.author %} by {{ post.author }}{% endif %}
+        <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}{% if post.author %} by {{ post.author }}{% endif %}
       </div>
     </div>
     {% endfor %}
