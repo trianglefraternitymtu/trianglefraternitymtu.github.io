@@ -3,6 +3,10 @@ header.masthead {
   text-align: center;
   color: white;
 
+  img {
+    max-height: 40em;
+  }
+
   .carousel {
     .carousel-inner {
       .carousel-caption {
@@ -11,11 +15,12 @@ header.masthead {
 
         h1, h2, h3, h4, h5, h6 {
           color: $white;
-          text-shadow: 0px 0px 8px $black;
+          text-shadow: 0px 0px 12px $black;
         }
         p {
           color: $white;
-          text-shadow: 0px 0px 6px $black;
+          text-shadow: 0px 0px 10px $black;
+          font-size: 1.25rem;
         }
       }
     }
@@ -26,7 +31,6 @@ header.masthead {
     img {
       width: 100%;
       object-fit: cover;
-      max-height: 50em;
     }
   }
 }
