@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Become Active
-permalink: /get-involved/actives
+permalink: /get-involved/become-active
 ---
 <h1><center>Be Part of Our Story</center></h1>
 
