@@ -8,7 +8,7 @@ permalink: /get-involved/actives
 <center><b>Mission Statement</b></center>  
 <center><i>The purpose of Triangle shall be to maintain a fraternity of engineers, architects, and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</i></center>
 
-{% include featured.html image="/assets/img/groups/fall_2016_pinning.jpg" caption="
+{% include featured.html image="/assets/img/groups/fall_2016_pinning.JPG" caption="
 # What We're About
 
 As a fraternity, Triangle bases itself strongly in academics, friendship, and personal development. We are composed of solely engineers, architects, and scientists, making Triangle a community of men committed to academic excellence and the drive for knowledge. Triangle men hold each other to high standards of professionalism and integrity, which are exemplified in our mission statement.   
