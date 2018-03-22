@@ -1,0 +1,16 @@
+<div class="card contributors d-none d-md-block float-{{ include.position | default: "left"}}">
+  <div class="card-header">
+    {{ include.title | default: "Contributors to this website"}}
+  </div>
+  <ul class="list-unstyled list-group list-group-flush">
+  {% for contributor in site.github.contributors %}
+    <li class="media">
+      <img class="rounded m-2" src="{{ contributor.avatar_url }}" alt="{{ contributor.login }} avatar image">
+      <div class="media-body">
+        <h5 class="mt-3 mb-1"><a href="{{ contributor.html_url }}" >{{ contributor.login }}</a></h5>
+        <a href="{{ site.github.repository_url }}/commits?author={{ contributor.login }}" >{{ contributor.contributions }} commits</a>
+      </div>
+    </li>
+  {% endfor %}
+  </ul>
+</div>

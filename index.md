@@ -1,20 +1,30 @@
 ---
 layout: home
 cover-images:
-  - image-link: http://mtutriangle.org/wp-content/uploads/2016/09/formalActive.jpg
+  - image-link: /assets/img/groups/DSC_5778.JPG
+    image-position: center bottom
+    caption:
+      position: center
+      text: >
+        ## Growing Membership
+
+        Growing into one of the largest Greek organizations on campus
+  - image-link: /assets/img/people/bennett.JPG
+    image-position: center top
     caption:
       position: left
       text: >
-        # Header Left
+        ## Proud Leaders
 
-        this is some text
-  - image-link: http://mtutriangle.org/wp-content/uploads/2016/09/formalAlumni.jpg
+        Well rounded members with our values based membership
+  - image-link: /assets/img/groups/DSC_5795.JPG
+    image-position: center bottom
     caption:
-      position: right
+      position: center
       text: >
-        # Header right
+        ## Lasting Connections
 
-        This is a right caption
+        Join a global network of engineers, architects, and scientists
 cover-image-controls: false
 cover-image-indicators: true
 timeline:
@@ -48,7 +58,7 @@ timeline:
   - header: Pi-Mile for Charity
     image: https://i.imgur.com/xz7TRc9.jpg
     date: September, 2013
-    url: pi-mile.html
+    url: /pi-mile.html
     caption: Triangle Fraternity hosts the very first Pi-Mile for Charity. The Pi-Mile is an annual 5k (3.14 mile) walk/run that starts and ends in the middle of campus.
 
   - header: You became a Husky!
