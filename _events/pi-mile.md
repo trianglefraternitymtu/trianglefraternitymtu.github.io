@@ -30,7 +30,7 @@ The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by the Michi
 {% include featured.html image="https://i.imgur.com/f2KrMvW.jpg" caption="
 # Pies for Charity
 
-The sisters of [Alpha Gammer Delta](https://www.involvement.mtu.edu/organization/alpha-gamma-delta) sell pies by the finish line for charity.
+The sisters of [Alpha Gamma Delta](https://www.involvement.mtu.edu/organization/alpha-gamma-delta) sell pies by the finish line for charity.
 " %}
 
 {% include image-section.html image="https://i.imgur.com/wis22Qo.jpg" content='
