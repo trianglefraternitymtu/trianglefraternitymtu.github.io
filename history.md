@@ -37,6 +37,12 @@ timeline:
     url: /pi-mile.html
     caption: Triangle Fraternity hosts the very first Pi-Mile for Charity. The Pi-Mile is an annual 5k (3.14 mile) walk/run that starts and ends in the middle of campus.
 
+  - header: Extra Life
+    image: /assets/img/extra-life/extra-life-logo.jpg
+    date: March, 2017
+    url: /extra-life.html
+    caption: Triangle Fraternity hosts the very first Extra Life at Michigan Tech. Extra Life unites thousands of gamers around the world to play games in support of their local Children's Miracle Network Hospital.
+
   - header: You became a Husky!
     url: http://www.mtu.edu/student-activities/greek-life/join/
     image: /assets/img/husky-statue-1600feature.jpg
