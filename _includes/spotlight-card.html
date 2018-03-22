@@ -5,12 +5,12 @@
 {% endif %}
 
 {% if spotlight.title %}
-<div class="card h-100 member-spotlight mb-4">
-  <img class="card-img-top" src="{{ spotlight.cover-image}}" alt="spotlight image of {{ spotlight.title }}">
+<div class="card member-spotlight mb-4">
+  <img class="card-img-top" src="{{ spotlight.cover-image }}" alt="spotlight image of {{ spotlight.title }}">
   <div class="card-body">
     <h4 class="card-title">{{ spotlight.title }}</h4>
     <h6 class="card-subtitle mb-2 text-muted">{{ spotlight.position }}</h6>
-    <p class="card-text">{{ spotlight.content }}</p>
+    <p class="card-text">{{ spotlight.content | truncatewords: 250 }}</p>
   </div>
   <div class="card-footer">
     <ul class="list-inline social-buttons">
