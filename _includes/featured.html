@@ -7,16 +7,24 @@
 <div class="row featured-content my-5" id="{{ include.id | default: default_id }}">
   {% if side == 1 %}
   <div class="col-md-6 order-md-1 p-0">
+    {% if include.image %}
     <img class="img-fluid" src="{{ include.image }}" alt="featured image">
+    {% elsif include.html %}
+    <div class="embed-responsive embed-responsive-16by9">{{ include.html }}</div>
+    {% endif %}
   </div>
-  <div class="col-md-6 order-md-0 px-md-2 px-4 my-4">
+  <div class="col-md-6 order-md-0 px-4 my-4">
     {{ include.caption | markdownify }}
   </div>
   {% else %}
   <div class="col-md-6 order-md-0 p-0">
+    {% if include.image %}
     <img class="img-fluid" src="{{ include.image }}" alt="featured image">
+    {% elsif include.html %}
+    <div class="embed-responsive embed-responsive-16by9">{{ include.html }}</div>
+    {% endif %}
   </div>
-  <div class="col-md-6 order-md-1 px-md-2 px-4 my-4">
+  <div class="col-md-6 order-md-1 px-4 my-4">
     {{ include.caption | markdownify }}
   </div>
   {% endif %}

@@ -57,7 +57,18 @@ ul.blog-pagination {
 /*
  * Blog posts
  */
-
+ #blog-post-image-carousel.carousel {
+   .carousel-inner {
+     .carousel-item {
+       img{
+         width: 100%;
+         // object-position: top;
+         object-fit: cover;
+         max-height: 35em;
+       }
+     }
+   }
+ }
 .blog-post {
   margin-bottom: 4rem;
 }
@@ -71,11 +82,14 @@ ul.blog-pagination {
 }
 .blog-post-content {
   figure {
-    margin-top: 15px;
+    // margin-top: 15px;
     @media (min-width: 768px) {
+      figcaption {
+        max-width: 350px;
+      }
       img {
         // height: 300px;
-        width: 400px
+        max-width: 350px
       }
       &.float-left {
         margin-right: 2em;
@@ -89,9 +103,47 @@ ul.blog-pagination {
   h1, h2, h3, h4, h5, h6 {
     margin: 15px 0px;
   }
+  h1 {
+    font-size: 2.25rem;
+  }
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+
+  h4 {
+    font-size: 1.5rem;
+  }
+
+  h5 {
+    font-size: 1.25rem;
+  }
+
+  h6 {
+    font-size: 1rem;
+  }
+
+  blockquote {
+    @include serif-font;
+    margin: 0.5em 2.5em 2.5em;
+    font-style: italic;
+  }
 
   p {
     margin: 10px 0px;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: $triangle-yellow;
+    &:hover {
+      color: darken($triangle-yellow, 10%);
+    }
   }
 }
 
@@ -105,5 +157,8 @@ ul.blog-pagination {
     object-fit: cover;
     object-position: top;
     max-height: 300px;
+  }
+  div.card-footer {
+    font-size: 0.75rem;
   }
 }

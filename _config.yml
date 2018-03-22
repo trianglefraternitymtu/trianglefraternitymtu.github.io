@@ -30,6 +30,7 @@ markdown: kramdown
 plugins:
   - jekyll-feed
   - jekyll-paginate
+  - jemoji
 
 paginate: 5
 paginate_path: "/blog/page:num"
@@ -60,6 +61,7 @@ defaults:
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
 exclude:
+  - CNAME
   - Gemfile
   - Gemfile.lock
   - docker-compose.yml
