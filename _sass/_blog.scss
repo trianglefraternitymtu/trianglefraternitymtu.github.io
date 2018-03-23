@@ -136,15 +136,6 @@ ul.blog-pagination {
   p {
     margin: 10px 0px;
   }
-
-  a {
-    color: inherit;
-    text-decoration: underline;
-    text-decoration-color: $triangle-yellow;
-    &:hover {
-      color: darken($triangle-yellow, 10%);
-    }
-  }
 }
 
 /*

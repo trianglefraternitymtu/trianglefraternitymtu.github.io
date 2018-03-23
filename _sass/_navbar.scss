@@ -2,6 +2,12 @@
 #mainNav {
   background-color: $secondary;
   border: none;
+
+  a {
+    font-weight: normal;
+    text-decoration: none;
+  }
+
   .navbar-toggler {
     font-size: 12px;
     right: 0;

@@ -16,7 +16,10 @@ p {
 }
 
 a {
-  color: $triangle-yellow;
+  color: inherit;
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-color: $triangle-yellow;
   &:hover {
     color: darken($triangle-yellow, 10%);
   }
@@ -62,6 +65,8 @@ section {
 .btn {
   @include heading-font;
   font-weight: 700;
+  font-weight: none;
+  text-decoration: none;
 }
 
 .btn-xl {
@@ -219,6 +224,8 @@ ul.social-buttons {
   background-color: $triangle-light-gray;
   a {
     color: $primary;
+    font-weight: normal;
+    text-decoration: none;
     &:hover {
       color: darken($primary, 10%);
     }

@@ -4,7 +4,7 @@
 {% assign side = page_feature | modulo: 2 %}
 {% assign default_id = 'feature-' | append: page_feature %}
 
-<div class="row featured-content my-5" id="{{ include.id | default: default_id }}">
+<div class="row featured-content" id="{{ include.id | default: default_id }}">
   {% if side == 1 %}
   <div class="col-md-6 order-md-1 p-0">
     {% if include.image %}
