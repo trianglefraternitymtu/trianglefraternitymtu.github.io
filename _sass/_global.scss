@@ -120,6 +120,14 @@ ol.carousel-indicators {
 
 ul.social-buttons {
   margin-bottom: 0;
+  .list-inline-item {
+    display: inline-block;
+
+    &:not(:last-child) {
+      margin-right: 5px;
+    }
+  }
+
   li {
     a {
       color: transparent;
