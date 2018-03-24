@@ -249,8 +249,7 @@ ul.social-buttons {
   }
   a {
     color: inherit;
-    text-decoration: underline;
-    text-decoration-color: $triangle-yellow;
+    text-decoration: none;
     &:hover {
       color: darken($triangle-yellow, 10%);
     }
