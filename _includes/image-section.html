@@ -1,5 +1,5 @@
 {% if include.image %}
-<section class="bg-image-full row mt-2" style="background-image: url('{{ include.image }}');" {% if include.id %}id="{{ include.id }}"{% endif %}>
+<section class="bg-image-full row image-section" style="background-image: url('{{ include.image }}');" {% if include.id %}id="{{ include.id }}"{% endif %}>
   <div class="container">
     {{ include.content | markdownify }}
   </div>
