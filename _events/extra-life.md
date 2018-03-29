@@ -26,9 +26,11 @@ Tournament starts at 8:30pm, signup will open at event registration table at 8:0
 Challenge your friends and play your hearts out with Rockband and Guiter Hero open play starting at 9:00pm.
 
 #### League of Legends Tournament
-1v1 tournament, hosted by the [League of Legends Club](https://www.involvement.mtu.edu/organization/lol) starting at 9:30pm, signup opens at 8:00pm at the event registration table.
+1v1 tournament, hosted by the [League of Legends Club](https://www.involvement.mtu.edu/organization/lol), starting at 9:30pm, signup opens at 8:00pm at the event registration table.
+
 #### Super Smash Brother Tournament
 Tournament will start at 10:30pm, and registration opens at 8:00pm at the event registration table. The tournament is hosted by the [Smash Club](https://www.involvement.mtu.edu/organization/smashclub).
+
 #### Halo 3 Tournaments
 With two tournaments, starting at 11:30pm, Halo 3 will play off in 4v4 [GrifBall](https://www.youtube.com/watch?v=rmOzAE-CbLY) followed by 2v2v2v2 Team Slayer.
 

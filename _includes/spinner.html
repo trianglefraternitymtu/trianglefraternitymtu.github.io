@@ -7,9 +7,9 @@
     </div>
     <div class="container">
       <div class="row">
-        {%- assign things = include.content| strip | newline_to_br | split: '<br />' -%}
+        {%- assign things = include.content | strip | newline_to_br | split: '<br />' -%}
         {% for i in things %}
-        {% assign temp = i |  %}
+        {% assign temp = i %}
         <div class="col-md-auto">
           {{ i | markdownify }}
         </div>
