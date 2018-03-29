@@ -54,22 +54,23 @@
     {% if site.spotlights.size >= 3 %}
     <section id="spotlights">
       <div class="container">
-      <div class="row">
-        <div class="col-lg-12 text-center">
-          <h2 class="section-heading text-uppercase">Membership Spotlights</h2>
-          <h3 class="section-subheading text-muted">Testimonials from our membership, sharing their stories.</h3>
-        </div>
-      </div>
-      <div class="container">
         <div class="row">
-          {% for sl in site.spotlights %}
-          <div class="col-lg-4">
-            {% include spotlight-card.html spotlight=sl %}
+          <div class="col-lg-12 text-center">
+            <h2 class="section-heading text-uppercase">Membership Spotlights</h2>
+            <h3 class="section-subheading text-muted">Testimonials from our membership, sharing their stories.</h3>
           </div>
-            {% if forloop.index >= 3 %}
-              {% break %}
-            {% endif %}
-          {% endfor %}
+        </div>
+        <div class="container">
+          <div class="row">
+            {% for sl in site.spotlights %}
+            <div class="col-lg-4">
+              {% include spotlight-card.html spotlight=sl %}
+            </div>
+              {% if forloop.index >= 3 %}
+                {% break %}
+              {% endif %}
+            {% endfor %}
+          </div>
         </div>
       </div>
     </section>

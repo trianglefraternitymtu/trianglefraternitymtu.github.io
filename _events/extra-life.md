@@ -14,7 +14,7 @@ Extra Life at Michigan Tech is not your standard 24 hour gaming marathon. At thi
 {% include image-section.html image="/assets/img/extra-life/bluegridpattern_icons.jpg" content='
 # Event Timeline
 
-Throughout the night, there will be a wide variety of different tournaments available for signup, in addition to open play all night long. Registration for all tournaments open at 8:00pm at the event registration table.
+Extra Life at Michigan Tech will be hosted in Wadsworth Hall on April 7th, 2018 from 8:00pm to 2am. Throughout the night, there will be a wide variety of different tournaments available for signup, in addition to open play all night long. Registration for all tournaments open at 8:00pm at the event registration table.
 
 #### Event Starts
 Open Play
@@ -30,13 +30,18 @@ Challenge your friends and play your hearts out with Rockband and Guiter Hero op
 #### Super Smash Brother Tournament
 Tournament will start at 10:30pm, and registration opens at 8:00pm at the event registration table. The tournament is hosted by the [Smash Club](https://www.involvement.mtu.edu/organization/smashclub).
 #### Halo 3 Tournaments
-With two tournaments, starting at midnight, Halo 3 will play off in 4v4 [GrifBall](https://www.youtube.com/watch?v=rmOzAE-CbLY) and 2v2v2v2 Team Slayer.
+With two tournaments, starting at 11:30pm, Halo 3 will play off in 4v4 [GrifBall](https://www.youtube.com/watch?v=rmOzAE-CbLY) followed by 2v2v2v2 Team Slayer.
 
 #### Game over, man! Game over!
 Games will end at 2:00am. Thanks for playing!
 ' %}
 
-# Sponsors
+{% include spinner.html title="Sponsors" content='
+[![Jimmy Johns](/assets/img/extra-life/sponsors/Jimmy-Johns.jpg)](https://www.jimmyjohns.com/)
+[![Biggby Coffee](https://www.biggby.com/wp-content/uploads/2016/11/BIGGBY-logo-horizontal.png)](https://www.biggby.com/)
+![WHSA](/assets/img/extra-life/sponsors/whsa.png)
+![MUB Board](/assets/img/extra-life/sponsors/MUB_Logo_Red.png)
+' %}
 
 {% include image-section.html image="/assets/img/extra-life/people.png" content='
 ### Help support our cause by donating to Extra Life.
