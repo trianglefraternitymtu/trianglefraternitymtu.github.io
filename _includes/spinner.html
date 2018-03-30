@@ -1,20 +1,21 @@
 <section class="content-spinner">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">{{ include.title }}</h2>
-      </div>
-    </div>
+  <div class="container-fluid">
     <div class="container">
       <div class="row">
-        {%- assign things = include.content | strip | newline_to_br | split: '<br />' -%}
-        {% for i in things %}
-        {% assign temp = i %}
-        <div class="col-md-auto">
-          {{ i | markdownify }}
+        <div class="col-lg-12 text-center">
+          <h2 class="section-heading text-uppercase">{{ include.title }}</h2>
+          <h3 class="section-subheading text-muted">{{ include.subtitle }}</h3>
         </div>
-        {% endfor %}
       </div>
+    </div>
+    <div class="row">
+      {%- assign things = include.content | strip | newline_to_br | split: '<br />' -%}
+      {% for i in things %}
+      {% assign temp = i %}
+      <div class="col-md-3">
+        {{ i | markdownify }}
+      </div>
+      {% endfor %}
     </div>
   </div>
 </section>
