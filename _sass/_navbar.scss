@@ -96,3 +96,10 @@
     }
   }
 }
+@media(max-width:576px) {
+  #mainNav {
+    .navbar-brand {
+      font-size: 4vw;
+    }
+  }
+}

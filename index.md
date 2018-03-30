@@ -2,7 +2,7 @@
 layout: home
 cover-images:
   - image-link: /assets/img/groups/DSC_5778.JPG
-    image-position: center bottom
+    image-position: center 80%
     caption:
       position: center
       text: >
@@ -18,7 +18,7 @@ cover-images:
 
         Well rounded members with our values based membership
   - image-link: /assets/img/groups/DSC_5795.JPG
-    image-position: center bottom
+    image-position: center 83%
     caption:
       position: center
       text: >
