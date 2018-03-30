@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Alumni
+title: Reconnecting with other Alumni
 permalink: /get-involved/alumni
 ---
 

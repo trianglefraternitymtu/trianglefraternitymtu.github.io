@@ -10,11 +10,13 @@
         <li class="nav-item">
           <a class="nav-link" href="{% link index.md %}">Home<!-- <span class="sr-only">(current)</span>--></a>
         </li>
-        {% if site.posts.size > 0 %}
-        <li class="nav-item">
-          <a class="nav-link" href="{% link blog/index.html %}">Blog</a>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="{% link active.md %}" id="involved" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Involved</a>
+          <div class="dropdown-menu" aria-labelledby="involved">
+            <a class="dropdown-item" href="{% link active.md %}">Join</a>
+            <a class="dropdown-item" href="{% link alumni.md %}">Reconnect</a>
+          </div>
         </li>
-        {% endif %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="events" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Events</a>
           <div class="dropdown-menu" aria-labelledby="events">
@@ -23,13 +25,11 @@
             {% endfor %}
           </div>
         </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="{% link become_active.md %}" id="involved" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Get Involved</a>
-          <div class="dropdown-menu" aria-labelledby="involved">
-            <a class="dropdown-item" href="{% link become_active.md %}">Become Active</a>
-            <a class="dropdown-item" href="{% link alumni.md %}">Alumni</a>
-          </div>
+        {% if site.posts.size > 0 %}
+        <li class="nav-item">
+          <a class="nav-link" href="{% link blog/index.html %}">Blog</a>
         </li>
+        {% endif %}
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="{% link history.md %}" id="about" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">About</a>
           <div class="dropdown-menu" aria-labelledby="about">

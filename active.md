@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Become Active
+title: Joining Triangle Fraternity
 permalink: /get-involved/become-active
 ---
 <h1><center>Be Part of Our Story</center></h1>
