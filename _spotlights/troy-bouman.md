@@ -1,5 +1,5 @@
 ---
-init-year: 15
+init-year: 09
 cover-image: /assets/img/people/troy.jpg
 linkedin_id: tmbouman
 ---

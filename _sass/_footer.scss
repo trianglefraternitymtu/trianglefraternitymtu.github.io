@@ -16,4 +16,12 @@ footer {
     text-transform: none;
     @include heading-font;
   }
+  a {
+    color: $triangle-yellow;
+    font-weight: normal;
+    text-decoration: none;
+    &:hover {
+      color: darken($triangle-yellow, 10%);
+    }
+  }
 }
