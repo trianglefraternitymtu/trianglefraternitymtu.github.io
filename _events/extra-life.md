@@ -9,32 +9,36 @@ Extra Life unites thousands of gamers around the world to play games in support 
 
 # Extra Life at Michigan Tech
 
-Extra Life at Michigan Tech is not your standard 24 hour gaming marathon. At this 6 hour event, we've chosen to create a unique and exciting gaming environment where you can have fun and hang out with your fellow Huskies. Attendee's are encouraged to bring their own games, consoles, and even computers. Some games and consoles will be provided by Triangle Fraternity Brothers and other organizations for open play. In support of [Children's Miracle Network Hospitals](https://childrensmiraclenetworkhospitals.org/), please consider donating at our event or on out [fundraising page](https://www.extra-life.org/participant/MTU_Extra_Life).
+Extra Life at Michigan Tech is not your standard 24 hour gaming marathon. At this 6 hour event, we've chosen to create a unique and exciting gaming environment where you can have fun and hang out with your fellow Huskies. Attendee's are encouraged to bring their own games, consoles, and even computers. Some games and consoles will be provided by Triangle Fraternity Brothers and other organizations for open play. In support of [Children's Miracle Network Hospitals](https://childrensmiraclenetworkhospitals.org/), please consider donating at our event or on our [fundraising page](https://www.extra-life.org/participant/MTU_Extra_Life).
+
+## April 7th, 2018
+## 8 PM - 2 AM
+## Wadsworth Hall Dining Hall
 
 {% include image-section.html image="/assets/img/extra-life/bluegridpattern_icons.jpg" content='
 # Event Timeline
 
-Extra Life at Michigan Tech will be hosted in Wadsworth Hall on April 7th, 2018 from 8:00pm to 2am. Throughout the night, there will be a wide variety of different tournaments available for signup, in addition to open play all night long. Registration for all tournaments open at 8:00pm at the event registration table.
+Throughout the night, there will be a wide variety of different tournaments available for signup and well as open play all night long. Registration for all tournaments open at 8:00pm at the event registration table.
 
-#### Event Starts
+#### Event Starts | 8 PM
 Open Play
 
-#### Euchre Tournament
+#### Euchre Tournament | 8:30 PM
 Tournament starts at 8:30pm, signup will open at event registration table at 8:00pm.
 
-#### Battle of the Bands
-Challenge your friends and play your hearts out with Rockband and Guiter Hero open play starting at 9:00pm.
+#### Battle of the Bands | 9 PM
+Challenge your friends and play your heart out with Rockband and Guitar Hero open play starting at 9:00pm.
 
-#### League of Legends Tournament
+#### League of Legends Tournament | 9:30 PM
 1v1 tournament, hosted by the [League of Legends Club](https://www.involvement.mtu.edu/organization/lol), starting at 9:30pm, signup opens at 8:00pm at the event registration table.
 
-#### Super Smash Brother Tournament
-Tournament will start at 10:30pm, and registration opens at 8:00pm at the event registration table. The tournament is hosted by the [Smash Club](https://www.involvement.mtu.edu/organization/smashclub).
+#### Super Smash Brother Tournament | 10:30 PM
+Tournament will start at 10:30pm with registration opening at 8:00pm at the event registration table. Hosted by Michigan Tech's [Smash Club](https://www.involvement.mtu.edu/organization/smashclub).
 
-#### Halo 3 Tournaments
+#### Halo 3 Tournaments | 11:30 PM
 With two tournaments, starting at 11:30pm, Halo 3 will play off in 4v4 [GrifBall](https://www.youtube.com/watch?v=rmOzAE-CbLY) followed by 2v2v2v2 Team Slayer.
 
-#### Game over, man! Game over!
+#### Game over, man! Game over! | 2 AM
 Games will end at 2:00am. Thanks for playing!
 ' %}
 
