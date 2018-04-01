@@ -8,16 +8,14 @@ permalink: /about/contact
 
 ### Local Organization Information
 
-If you have questions, concerns, or maybe you want to get more information about an upcoming event, feel free to reach out to Recruitment Chairs at [triangle-rec@mtu.edu](mailto:triangle-rec@mtu.edu).
+If you have questions, concerns, or would like to get more information about an upcoming event, feel free to reach out to our Recruitment Chairs at [triangle-rec@mtu.edu](mailto:triangle-rec@mtu.edu).
 
 Ideas for Service and Philanthropy events and coordination can be sent to the Service and Philanthropy Chair at [triangle-svc@mtu.edu](mailto:triangle-svc@mtu.edu)
 
-Important information and other important matters can be set to the Active Chapter President at [triangle-pres@mtu.edu](mailto:triangle-pres@mtu.edu)
-
-More general questions can be emailed to [triangle@mtu.edu](mailto:triangle@mtu.edu)
+Important or general information, questions, and comments can be sent to the Active Chapter President at [triangle-pres@mtu.edu](mailto:triangle-pres@mtu.edu)
 
 Our mailing address is `1307 Ruby Ave Houghton, MI 49931`
 
 ### Alumni Organization Information
 
-If you're looking to get involved in the Alumni Organization. You can get in contact with Alex Ott , the Alumni Secretary, at ([ajott@mtu.edu](mailto:ajott@mtu.edu)).
+If you're looking to get involved in the Alumni Organization contact Alex Ott, the Alumni Secretary, at [ajott@mtu.edu](mailto:ajott@mtu.edu).
