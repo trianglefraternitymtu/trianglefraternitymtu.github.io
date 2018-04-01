@@ -40,6 +40,11 @@
         <a href="mailto:{{ include.email_address }}"><i class="fa fa-envelope text-center" aria-hidden="true"></i></a>
       </li>
       {% endif %}
+      {% if include.homepage %}
+      <li class="list-inline-item">
+        <a href="mailto:{{ spotlight.homepage }}"><i class="fa fa-home text-center" aria-hidden="true"></i></a>
+      </li>
+      {% endif %}
     </ul>
   </div>
 </div>
