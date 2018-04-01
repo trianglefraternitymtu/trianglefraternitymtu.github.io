@@ -52,7 +52,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
+    @include heading-font;
   }
 }
 @media(min-width:768px) {
