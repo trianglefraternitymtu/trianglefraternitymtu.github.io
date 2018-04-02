@@ -23,15 +23,15 @@ In joining Triangle, you will become part of a brotherhood of over 29,000 men. T
 
 ## Frequently Asked Questions
 
-Q: What is the minimum GPA requirement?
+#### Q: What is the minimum GPA requirement?
 
 A: The minimum GPA requirement is 2.7. If you do not meet this GPA, don't sweat it. With one of the highest Greek GPA on at Michigan Tech, we will be more than willing to help you with your school work so that you may increase it. Our brothers thrive on helping individuals grow and supporting others in their success.
 
-Q: How much does joining Triangle cost?
+#### Q: How much does joining Triangle cost?
 
 A: The dues for each semester are roughtly $450 with a pledge semester being $500. The price of dues can be spread out over a semester with our payment plan. Many of our brothers currently take advantage of this. Triangle also provides scholarship opportunities to active members across the nation, allowing brothers to be rewarded for their academic work.
 
-Q: Will I fall behind in my school work?
+#### Q: Will I fall behind in my school work?
 
 A: Though Triangle holds many events throughout the semester, we place precedence on scholastics. We believe school comes first and will always encourage and support academic excellence.
 
