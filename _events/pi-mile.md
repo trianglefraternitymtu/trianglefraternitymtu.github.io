@@ -16,7 +16,7 @@ cover-images:
       position: right
 cover-image-controls: false
 cover-image-indicators: false
-excerpt: The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by the Michigan Tech Chapter of Triangle Fraternity, organized to benefit the Western UP Food Bank. The Pi-Mile takes place through Michigan Tech’s campus, along College Ave and Cliff Drive.
+excerpt: The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by the Michigan Tech Chapter of Triangle Fraternity, organized to benefit the Western UP Food Bank. The Pi-Mile takes place through Michigan Tech’s campus, along College Ave, and Cliff Drive.
 ---
 
 # Pi Mile
@@ -24,18 +24,20 @@ excerpt: The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by 
 The Pi-Mile is an annual 5k (3.14 mile) walk/run for charity hosted by the Michigan Tech Chapter of Triangle Fraternity, organized to benefit the Western UP Food Bank. The Pi-Mile takes place through Michigan Tech’s campus, along College Ave and Cliff Drive.
 
 {% include featured.html image="https://i.imgur.com/hAW9qWD.jpg" caption="
-# Runners do runner things
+# Ready...Set...Fundraise!
+
+For years, Triangle Fraternity at Michigan Tech has been hosting this exciting event. Registrants receive a t-shirt (while available) and the entrance proceeds support a great local charity. Join us to support your neighbors in need - and pie a Triangle brother in the face!
 " %}
 
 {% include featured.html image="https://i.imgur.com/f2KrMvW.jpg" caption="
 # Pies for Charity
 
-The sisters of [Alpha Gamma Delta](https://www.involvement.mtu.edu/organization/alpha-gamma-delta) sell pies by the finish line for charity.
+Our partnerships make this event a success. The sisters of [Alpha Gamma Delta](https://www.involvement.mtu.edu/organization/alpha-gamma-delta) have always contributed their tasty pies to the event, with 100% of sales going directly to the charity.
 " %}
 
 {% include image-section.html image="https://i.imgur.com/wis22Qo.jpg" content='
 ## Registration is Open
 
-Courtesy of the [Inter-Residence Housing Council (IRHC)](https://www.involvement.mtu.edu/organization/IRHC), the first **100** people who signup will receive a **half-off** discount on the registration fee. Signup before the run and receive a T-shirt, at no additional cost, when you check-in at the race, while supplies last.
+Courtesy of the [Inter-Residence Housing Council (IRHC)](https://www.involvement.mtu.edu/organization/IRHC), the first **100** Michigan Tech Residence Hall students who signup will receive a **half-price** discount on the registration fee. Signup before the run and receive a T-shirt at no additional cost, while supplies last.
 
 <a class="btn btn-primary" href="https://docs.google.com/forms/d/e/1FAIpQLSfGi84BaxRd-pEH-Gh9f9PQNTwv2DryU3lhtg-jonIrt3UYWQ/viewform" role="button">Signup</a>' %}

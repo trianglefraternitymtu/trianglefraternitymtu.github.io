@@ -52,4 +52,4 @@ Games will end at 2:00am. Thanks for playing!
 {% include image-section.html image="/assets/img/extra-life/people.png" content='
 ### Help support our cause by donating to Extra Life.
 
-<a class="btn btn-primary" href="https://www.extra-life.org/participant/MTU_Extra_Life" role="button">Donate</a>' %}
+<a class="btn btn-primary" href="https://www.extra-life.org/index.cfm?fuseaction=donorDrive.team&teamID=39508" role="button">Donate</a>' %}
