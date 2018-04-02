@@ -15,7 +15,7 @@ Extra Life at Michigan Tech is not your standard 24 hour gaming marathon. At thi
 ## 8 PM - 2 AM
 ## Wadsworth Hall Dining Hall
 
-{% include image-section.html image="/assets/img/extra-life/bluegridpattern_icons.jpg" content='
+{% include image-section.html image="/assets/img/extra-life/bluegridpattern_icons.jpg" content="
 # Event Timeline
 
 Throughout the night, there will be a wide variety of different tournaments available for signup and well as open play all night long. Registration for all tournaments open at 8:00pm at the event registration table.
@@ -40,7 +40,7 @@ With two tournaments, starting at 11:30pm, Halo 3 will play off in 4v4 [GrifBall
 
 #### Game over, man! Game over! | 2 AM
 Games will end at 2:00am. Thanks for playing!
-' %}
+" %}
 
 {% include spinner.html title="Sponsors" content='
 [![Jimmy Johns](/assets/img/extra-life/sponsors/Jimmy-Johns.jpg)](https://www.jimmyjohns.com/)
