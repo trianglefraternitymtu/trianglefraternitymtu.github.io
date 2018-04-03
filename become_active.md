@@ -25,7 +25,7 @@ In joining Triangle, you will become part of a brotherhood of over 29,000 men. T
 
 #### Q: What is the minimum GPA requirement?
 
-A: The minimum GPA requirement is 2.7. If you do not meet this GPA, don't sweat it. With one of the highest Greek GPAs at Michigan Tech, we will be more than willing to help you with your school work so that you may increase it. Our brothers thrive to help individuals grow as well as support others in their success.
+A: The minimum GPA requirement is 2.7. If you do not meet this GPA, don't sweat it. With one of the highest Greek GPAs at Michigan Tech, we will be more than willing to help you with your school work so that you may increase it. Our brothers strive to help individuals grow as well as support others in their success.
 
 #### Q: How much does joining Triangle cost?
 
