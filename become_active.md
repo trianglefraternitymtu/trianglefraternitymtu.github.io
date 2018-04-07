@@ -11,7 +11,7 @@ permalink: /get-involved/become-active
 {% include featured.html image="/assets/img/groups/fall_2016_pinning.JPG" caption="
 # What We're About
 
-As a fraternity, Triangle bases itself strongly in academics, friendship, and personal development. We are composed of solely engineers, architects, and scientists, making Triangle a community of men committed to academic excellence and the drive for knowledge. Triangle men hold each other to high standards of professionalism and integrity, which are exemplified in our mission statement.   
+As a fraternity, Triangle bases itself strongly in academics, friendship, and personal development. We are composed solely of engineers, architects, and scientists, making Triangle a community of men committed to academic excellence and the drive for knowledge. Triangle men hold each other to high standards of professionalism and integrity, which are exemplified in our mission statement.   
 
 " %}
 
@@ -25,15 +25,15 @@ In joining Triangle, you will become part of a brotherhood of over 29,000 men. T
 
 #### Q: What is the minimum GPA requirement?
 
-A: The minimum GPA requirement is 2.7. If you do not meet this GPA, we will be more than willing to help you out in your school work so that you may increase it.
+A: The minimum GPA requirement is 2.7. If you do not meet this GPA, don't sweat it. With one of the highest Greek GPAs at Michigan Tech, we will be more than willing to help you with your school work so that you may increase it. Our brothers strive to help individuals grow as well as support others in their success.
 
 #### Q: How much does joining Triangle cost?
 
-A: The dues for each semester are $445 with a pledge semester being $500. The price of dues can be spread out over a semester with our payment plan. Many of our brothers currently take advantage of this. Triangle also provides scholarship opportunities to active members across the nation, allowing brothers to be rewarded for their academic work.
+A: The dues for each semester are roughtly $450 with a pledge semester being $500. The price of dues can be spread out over a semester with our payment plan. Many of our brothers currently take advantage of this. Triangle also provides scholarship opportunities to active members across the nation, allowing brothers to be rewarded for their academic work.
 
 #### Q: Will I fall behind in my school work?
 
-A: Though Triangle holds many events throughout the semester, we always hold school as the most important. We strive for academic excellence and will always encourage the ideal of school coming first.
+A: Though Triangle holds many events throughout the semester, we place precedence on scholastics. We believe school comes first and will always encourage and support academic excellence.
 
 # Upcoming events
 
