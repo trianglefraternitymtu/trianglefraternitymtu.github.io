@@ -52,7 +52,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    @include serif-font;
+    @include heading-font;
   }
 }
 @media(min-width:768px) {
@@ -310,15 +310,10 @@ ul.social-buttons {
   div {
     align-items: center;
     p {
-      display: block;
-      width: 100%;
-      margin-left: auto;
-      margin-right: auto;
-      height: 100%;
       img {
         margin: auto;
-        max-height: 20vh;
         max-width: 20vw;
+        max-height: 20vh;
       }
     }
   }

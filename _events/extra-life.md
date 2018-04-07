@@ -42,11 +42,11 @@ With two tournaments, starting at 11:30pm, Halo 3 will play off in 4v4 [GrifBall
 Games will end at 2:00am. Thanks for playing!
 " %}
 
-{% include spinner.html title="Sponsors" content='
+{% include spinner.html title="Sponsors" subtitle="Local supports of Extra Life at Michigan Tech." content='
 [![Jimmy Johns](/assets/img/extra-life/sponsors/Jimmy-Johns.jpg)](https://www.jimmyjohns.com/)
 [![Biggby Coffee](https://www.biggby.com/wp-content/uploads/2016/11/BIGGBY-logo-horizontal.png)](https://www.biggby.com/)
-![WHSA](/assets/img/extra-life/sponsors/whsa.png)
 ![MUB Board](/assets/img/extra-life/sponsors/MUB_Logo_Red.png)
+![WHSA](/assets/img/extra-life/sponsors/whsa.png)
 ' %}
 
 {% include image-section.html image="/assets/img/extra-life/people.png" content='
