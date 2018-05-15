@@ -3,6 +3,8 @@ author: Brett Opel
 author-init-year: 16
 cover-images:
   - /assets/img/posts/challenger_statue.JPG
+tags:
+  - Winter Carnival
 ---
 
 While we get buried in sleet and snow, we remember a Brother lost decades ago.

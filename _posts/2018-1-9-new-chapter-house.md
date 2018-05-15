@@ -3,6 +3,8 @@ author: Ian Wakely
 author-init-year: 14
 cover-images:
   - /assets/img/Property-Improvement-Image.jpeg
+tags:
+  - Housing
 ---
 
 Triangle Fraternity at Michigan Tech is on the move again, but this time it's into a new house near College Ave.
