@@ -6,7 +6,7 @@
     {% include navbar.html %}
     <main role="main" class="container mt-3">
       <div class="blog-post">
-        <h1 class="blog-post-title">{{ page.title }}</h1>
+        <h1 class="blog-post-title my-4">{{ page.title }}</h1>
         <div class="row">
           <div class="col">
           {% if page.author %}
@@ -20,8 +20,8 @@
         <nav aria-label="breadcrumb" role="navigation">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{% link index.md %}">Home</a></li>
-            <li class="breadcrumb-item"><a href="{% link blog/index.html %}">Blog</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{ page.date | date_to_long_string }} - {{ page.title }}</li>
+            <li class="breadcrumb-item"><a href="{% link blog/index.html %}">Chapter News</a></li>
+            <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
           </ol>
         </nav>
         {% if page.cover-images %}
@@ -55,6 +55,23 @@
           {% endif %}
         </div>
         {% endif %}
+
+        {% assign visible-tags = "" %}
+        {% for t in site.tags %}
+        {% if page.tags contains t.title %}
+        {% capture temp %}<a href="{{ t.url }}"><span class="badge badge-pill badge-primary">{{ t.title }}</span></a> {% endcapture %}
+        {% assign visible-tags = visible-tags | append: temp %}
+        {% endif %}
+        {% endfor %}
+        {% if visible-tags %}
+        {% for t in visible-tags %}
+        <div class="blog-post-tags mb-3">
+          <i class="fa fa-tags" aria-hidden="true"></i> Tags:
+          {{ visible-tags }}
+        </div>
+        {% endfor %}
+        {% endif %}
+
         {% if page.excerpt == page.content %}
         <div class="blog-post-content">
           {{ page.content }}

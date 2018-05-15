@@ -1,0 +1,36 @@
+{% if include.post %}
+<div class="card mb-4 blog-post-preview">
+  {% if include.post.cover-images %}
+  <img class="card-img-top img-fluid" src="{{ include.post.cover-images[0] }}" alt="Spotlight image for {{ include.post.title }}" alt="featured image from post on {{ include.post.date | date_to_long_string }}">
+  {% endif %}
+  <div class="card-body">
+    <h2 class="card-title">{{ include.post.title }}</h2>
+
+    {% assign visible-tags = "" %}
+    {% for t in site.tags %}
+    {% if include.post.tags contains t.title %}
+    {% capture temp %}<a href="{{ t.url }}"><span class="badge badge-pill badge-primary">{{ t.title }}</span></a> {% endcapture %}
+    {% assign visible-tags = visible-tags | append: temp %}
+    {% endif %}
+    {% endfor %}
+    {% if visible-tags %}
+    {% for t in visible-tags %}
+    <div class="blog-post-tags mb-3">
+      <i class="fa fa-tags" aria-hidden="true"></i> Tags:
+      {{ visible-tags }}
+    </div>
+    {% endfor %}
+    {% endif %}
+    
+    {% if include.post.excerpt == include.post.content %}
+    <p class="card-text">{{ include.post.content | remove_first: include.post.excerpt | truncatewords: 40 }}</p>
+    {% else %}
+    <p class="card-text">{{ include.post.excerpt | truncatewords: 40 }}</p>
+    {% endif %}
+    <a href="{{ include.post.url }}" class="btn btn-primary">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
+  </div>
+  <div class="card-footer text-muted">
+    <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ include.post.date | date_to_string }}{% if include.post.author %} by {{ include.post.author }}{% endif %}
+  </div>
+</div>
+{% endif %}
