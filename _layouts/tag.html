@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  {% include head.html %}
+
+  <body id="page-top">
+    {% include navbar.html %}
+    <main role="main" class="container mt-3">
+      <nav aria-label="breadcrumb" role="navigation">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="{% link index.md %}">Home</a></li>
+          <li class="breadcrumb-item"><a href="{% link blog/index.html %}">Chapter News</a></li>
+          <li class="breadcrumb-item">Tags</li>
+          <li class="breadcrumb-item active" aria-current="page">{{ page.title }}</li>
+        </ol>
+      </nav>
+      {{ content }}
+      {%- for post in site.posts -%}
+      {%- if post.tags contains page.title -%}
+      {%- include blog-post-preview.html post=post -%}
+      {%- endif -%}
+      {%- endfor -%}
+    </main>
+    {% include footer.html %}
+    {% include scripts.html %}
+  </body>
+</html>

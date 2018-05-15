@@ -5,6 +5,8 @@ author-init-year: 16
 cover-images:
   - /assets/img/posts/area_51_2.JPG
   - /assets/img/posts/area_51_1.JPG
+tags:
+  - Winter Carnival
 ---
 
 For the second year in recent times, Triangle Fraternity at Michigan Tech tackled a large undertaking that would involve huge sums of man power and hours.
