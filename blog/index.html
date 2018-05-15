@@ -58,11 +58,26 @@ excerpt: Chapter News - Recent updates about Triangle Fraternity at Michigan Tec
   <aside class="col-sm-3 ml-sm-auto blog-sidebar d-print-none">
     <div class="card sidebar-module d-none d-lg-block">
       <h5 class="card-header"><i class="fa fa-tags"></i> Tags</h5>
-      <ul class="list-group list-group-flush">
-        {%- for t in site.tags -%}
-        <li class="list-group-item"><a href="{{ t.url | relative_url }}">{{ t.title }}</a></li>
-        {%- endfor -%}
-      </ul>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-6">
+            {%- for t in site.tags -%}
+            {%- assign mod = forloop.index0 | modulo: 2 -%}
+            {%- if mod == 0 -%}
+            <p><a class="tag-link" href="{{ t.url | relative_url }}">{{ t.title }}</a></p>
+            {%- endif -%}
+            {%- endfor -%}
+          </div>
+          <div class="col-6">
+            {%- for t in site.tags -%}
+            {%- assign mod = forloop.index0 | modulo: 2 -%}
+            {%- if mod == 1 -%}
+            <p><a class="tag-link" href="{{ t.url | relative_url }}">{{ t.title }}</a></p>
+            {%- endif -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
     </div>
 
     {% if site.spotlights.size > 0 %}
