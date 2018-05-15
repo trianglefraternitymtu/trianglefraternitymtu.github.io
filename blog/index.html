@@ -15,23 +15,7 @@ excerpt: Chapter News - Recent updates about Triangle Fraternity at Michigan Tec
 <div class="row">
   <div class="col-sm-12 col-lg-9 blog-main">
     {% for post in paginator.posts %}
-    <div class="card mb-4 blog-post-preview">
-      {% if post.cover-images %}
-      <img class="card-img-top img-fluid" src="{{ post.cover-images[0] }}" alt="Spotlight image for {{ post.title }}" alt="featured image from post on {{ post.date | date_to_long_string }}">
-      {% endif %}
-      <div class="card-body">
-        <h2 class="card-title">{{ post.title }}</h2>
-        {% if page.excerpt == page.content %}
-        <p class="card-text">{{ post.content | remove_first: post.excerpt | truncatewords: 40 }}</p>
-        {% else %}
-        <p class="card-text">{{ post.excerpt | truncatewords: 40 }}</p>
-        {% endif %}
-        <a href="{{ post.url }}" class="btn btn-primary">Read More <i class="fa fa-angle-double-right" aria-hidden="true"></i></a>
-      </div>
-      <div class="card-footer text-muted">
-        <i class="fa fa-calendar" aria-hidden="true"></i> Posted on {{ post.date | date_to_string }}{% if post.author %} by {{ post.author }}{% endif %}
-      </div>
-    </div>
+    {% include blog-post-preview.html post=post %}
     {% endfor %}
 
     {% if paginator.total_pages > 1 %}
@@ -72,9 +56,13 @@ excerpt: Chapter News - Recent updates about Triangle Fraternity at Michigan Tec
   </div><!-- /.blog-main -->
 
   <aside class="col-sm-3 ml-sm-auto blog-sidebar d-print-none">
-    <div class="sidebar-module sidebar-module-inset d-none d-lg-block">
-      <i class="fa fa-quote-left fa-2x fa-pull-left fa-border" aria-hidden="true"></i>
-      <p>The purpose of Triangle shall be to maintain a fraternity of engineers, architects and scientists. It shall carry out its purpose by establishing chapters that develop balanced men who cultivate high moral character, foster lifelong friendships, and live their lives with integrity.</p>
+    <div class="card sidebar-module d-none d-lg-block">
+      <h5 class="card-header"><i class="fa fa-tags"></i> Tags</h5>
+      <ul class="list-group list-group-flush">
+        {%- for t in site.tags -%}
+        <li class="list-group-item"><a href="{{ t.url | relative_url }}">{{ t.title }}</a></li>
+        {%- endfor -%}
+      </ul>
     </div>
 
     {% if site.spotlights.size > 0 %}
