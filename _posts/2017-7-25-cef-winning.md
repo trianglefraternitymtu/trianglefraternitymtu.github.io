@@ -5,6 +5,8 @@ author-init-year: 14
 cover-images:
   - /assets/img/posts/large_check.JPG
   - /assets/img/posts/small_check.jpg
+tags:
+  - Chapter Endowment Fund
 ---
 
 Building up the Chapter Endowment Fund by building better men.

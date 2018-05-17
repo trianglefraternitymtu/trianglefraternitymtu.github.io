@@ -41,6 +41,9 @@ collections:
     permalink: /:title
   spotlights:
     output: false
+  tags:
+    output: true
+    permalink: /blog/tags/:title
 
 defaults:
   - scope:
@@ -56,6 +59,11 @@ defaults:
     values:
       cover-image: http://placehold.it/750x450
       position: "Member"
+  - scope:
+      type: "tags"
+    values:
+      layout: "tag"
+
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
