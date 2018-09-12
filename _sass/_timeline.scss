@@ -17,10 +17,13 @@
     position: relative;
     min-height: 50px;
     margin-bottom: 50px;
+    &:not(:last-child):after,
+    &:before {
+      content: ' ';
+    }
     &:after,
     &:before {
       display: table;
-      content: ' ';
     }
     &:after {
       clear: both;
