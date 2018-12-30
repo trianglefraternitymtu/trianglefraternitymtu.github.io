@@ -64,12 +64,10 @@
         {% endif %}
         {% endfor %}
         {% if visible-tags %}
-        {% for t in visible-tags %}
         <div class="blog-post-tags mb-3">
           <i class="fa fa-tags" aria-hidden="true"></i> Tags:
           {{ visible-tags }}
         </div>
-        {% endfor %}
         {% endif %}
 
         {% if page.excerpt == page.content %}
