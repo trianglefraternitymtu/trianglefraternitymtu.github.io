@@ -83,17 +83,18 @@ ul.blog-pagination {
 .blog-post-content {
   figure {
     // margin-top: 15px;
-    @media (min-width: 768px) {
-      img {
-        // height: 300px;
-        max-width: 350px
-      }
-      &.float-left {
-        margin-right: 2em;
-      }
-      &.float-right {
-        margin-left: 2em;
-      }
+    img {
+      // height: 300px;
+      max-width: 350px;
+    }
+    figcaption {
+      max-width: 350px;
+    }
+    &.float-left {
+      margin-right: 2em;
+    }
+    &.float-right {
+      margin-left: 2em;
     }
   }
 
