@@ -22,8 +22,8 @@ cover-images: # List of URLs to images that should be posted at the top of the p
   - http://placehold.it/750x300
   - http://placehold.it/750x300
 tags: # List of tags that match the titles of tags defined in the _tags directory
-  - Example Tag 1
-  - Example Tag 2
+  - Example Tag 1 # filename would be `example-tag-1.md`, but could be changed using the `title` field in within the tag file.
+  - Example Tag 2 # filename would be `example-tag-2.md`, but could be changed using the `title` field in within the tag file.
 ---
 
 <!-- excerpt -->
