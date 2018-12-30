@@ -57,7 +57,7 @@ statue, as I found out, was a vastly different experience than working on an ove
 the excitement of All Nighter is in the air. It's a more casual affair, and if you're doing it with your hall your RA
 is probably just there so they don't get fined. The cold doesn't cut as deep, and you can go inside whenever you want.
 
-{% include figure.html image="/assets/img/posts/work_on_challenger.jpg" caption="Brother James, Brother Ryan, and Brother
+{% include figure.html image="/assets/img/posts/work_on_challenger.jpg" caption="Br. James, Br. Ryan, and Br.
 Jared hard at work on top of the statue." position="right" %}
 
 While an overnight statue isn't easy by any means, I found out very quickly that a month long statue is a beast all
