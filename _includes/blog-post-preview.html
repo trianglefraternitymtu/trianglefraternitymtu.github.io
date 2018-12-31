@@ -13,7 +13,7 @@
     {% assign visible-tags = visible-tags | append: temp %}
     {% endif %}
     {% endfor %}
-    {% if visible-tags %}
+    {% if visible-tags != blank %}
     <div class="blog-post-tags mb-3">
       <i class="fa fa-tags" aria-hidden="true"></i> Tags:
       {{ visible-tags }}
