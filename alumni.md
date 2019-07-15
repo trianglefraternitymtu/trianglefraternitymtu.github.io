@@ -5,35 +5,31 @@ permalink: /get-involved/alumni
 ---
 
 # Alumni Board
-While the Alumni Board is comprised of specific positions, we encourage any and everyone to be active within the alumni group. Even if you can only spare a few minutes of your time, we could always use it! Please contact [Alex Ott](mailto:ajott@mtu.edu) to get on our Alumni Executive Board email list.
-
-{% include spotlight-inline.html
-  name="Wilmer Lidke"
-  position="Alumni President"
-  email_address="wblidke@mtu.edu"
-  cover-image="/assets/img/people/wilmer.jpg"
-content="
-"%}
-
-{% include spotlight-inline.html
-  name="Troy Bouman"
-  init-year="09"
-  position="Alumni Treasurer"
-  email_address="tmbouman@mtu.edu"
-  cover-image="/assets/img/people/troy.jpg"
-  content="
-I graduated from Tech in 2012 after 5 awesome years. During my time as an active I was the VP of New Member Education and Treasurer!
-"%}
+While the Alumni Board is comprised of specific positions, we encourage any and everyone to be active within the alumni group. Even if you can only spare a few minutes of your time, we could always use it! Please contact [Jerry Tozer](mailto:jltozer@mtu.edu) to get on our Alumni Executive Board email list.
 
 {% include spotlight-inline.html
   name="Alex Ott"
   init-year="11"
-  position="Alumni Secretary"
+  position="Alumni President"
   email_address="ajott@mtu.edu"
-  cover-image="/assets/img/people/Ott-Photo.jpg"
-  content="
-I graduated from Michigan Tech in 2016 with a BS in Engineering Management, after 4 years as an active and 1 year as an alumnus. I served in a number of positions, including VP of Member Development and as the Alumni Relations Chair.
-"%}
+  cover-image="/assets/img/people/ott.png"
+content=""%}
+
+{% include spotlight-inline.html
+  name="Darien Benner"
+  init-year="15"
+  position="Alumni Treasurer"
+  email_address="dtbenner@mtu.edu"
+  cover-image="/assets/img/people/darien.png"
+  content=""%}
+
+{% include spotlight-inline.html
+  name="Jerry Tozer"
+  init-year="13"
+  position="Alumni Secretary"
+  email_address="jltozer@mtu.edu"
+  cover-image="/assets/img/people/jerry.png"
+  content=""%}
 
 # Committees
 
