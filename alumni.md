@@ -13,7 +13,7 @@ While the Alumni Board is comprised of specific positions, we encourage any and 
   position="Alumni President"
   email_address="ajott@mtu.edu"
   cover-image="/assets/img/people/ott.png"
-content=""%}
+content="Alex served the Active Chapter in a number of positions, including VP of Member Development. He spent one year as the Active Advisor to the National Council. He currently lives and works in Grand Rapids, MI"%}
 
 {% include spotlight-inline.html
   name="Darien Benner"
@@ -21,7 +21,7 @@ content=""%}
   position="Alumni Treasurer"
   email_address="dtbenner@mtu.edu"
   cover-image="/assets/img/people/darien.png"
-  content=""%}
+  content="Darien served the Active Chapter as President, and has remained involved as an alumnus. He currently lives and works in the Detroit area"%}
 
 {% include spotlight-inline.html
   name="Jerry Tozer"
@@ -29,36 +29,13 @@ content=""%}
   position="Alumni Secretary"
   email_address="jltozer@mtu.edu"
   cover-image="/assets/img/people/jerry.png"
-  content=""%}
+  content="Jerry served the Active Chapter as Secretary and as the Active President. He currently lives and works in Muskegon, MI"%}
 
 # Committees
 
-Committees are established to better serve the Alumni and Active Organizations. While there may be any number of provisional committees at any time, these committees in particular are intended to provide long-term and in-depth support to the Fraternity.
+Committees are established to better serve the Alumni and Active Organizations. Generally, these committees include those for the Chapter House and the quinquennial Alumni Reunion. If you are interested in getting involved in a committee, send an email to the [Alumni Board](mailto:alumeboard-triangle-l@mtu.edu).
 
-## Member Development Committee
-{% include spotlight-inline.html
-  name="Jeff Kellogg"
-  position="Housing Committee Chair"
-  init-year="12"
-  email_address="jkellogg@mtu.edu"
-  cover-image="/assets/img/people/kellogg.png"
-  content="
-Jeff joined Triangle in the spring of 2012, and graduated with a degree in Chemical Engineering. He now works in Charles City, IA.
 
-Jeff volunteered to head the Housing Committee, citing prior experience with homeownership. If you would like to get involved with this committee, please contact Jeff.
-"%}
-
-{% include spotlight-inline.html
-  name="Mike Spenle"
-  position="Alumni Member Development Committee Chair"
-  init-year="13"
-  email_address="mdspenle@mtu.edu"
-  cover-image="/assets/img/people/spenle.png"
-  content="
-Mike joined Triangle in the spring of 2013, and has been very involved since then. He currently lives and works in the Ann Arbor area.
-
-If you would like to get involved with this committee, please contact Mike.
-"%}
 
 {% for file in site.static_files %}
 {% if file.path contains "/assets/docs/newsletters/" %}

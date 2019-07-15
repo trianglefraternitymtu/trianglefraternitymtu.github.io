@@ -8,7 +8,7 @@ timeline:
     date: April 15, 1907
     image: /assets/img/Founders-Image.jpg
     url: https://www.triangle.org/
-    caption: 16 students studying Civil Engineering at the University of Illinois decided to form a club during their senior year of college. This close group of friends laid foundation for the values based brotherhood, known as Triangle Fraternity.
+    caption: 16 students studying Civil Engineering at the University of Illinois decided to form a club during their senior year of college. This close group of friends laid a foundation for the values-based brotherhood known as Triangle Fraternity.
 
   - header: Colonization at Michigan Technological University
     date: 1985
@@ -18,18 +18,18 @@ timeline:
   - header: Chartering of the Michigan Tech Chapter
     date: April 16, 1988
     image: /assets/img/badge.jpg
-    caption: The hard work of Brothers has finally paid off. The men who have joined the Colony have established the seeds of brotherhood and shared the values of Triangle with others. The group becomes a fully incorporated Chapter of Triangle Fraternity.
+    caption: The hard work of the Brothers has finally paid off. The men who have joined the Colony have proven themselves and the group at Michigan Tech, and shared the values of Triangle with others. The group becomes a fully incorporated Chapter of Triangle Fraternity.
 
   - header: Re-Colonization at Michigan Technological University
     date: October, 2008
     image: /assets/img/COA.png
-    caption: After a number of years inactive, another group of individuals have been exploring the culture of Triangle. They have proven to The [National Council](https://www.triangle.org/national-leadership/national-council/) that Michigan Tech is ready for Triangle Fraternity, once again.
+    caption: After a number of years inactive, the National fraternity once again established a Colony at Michigan Tech with the recruitment and Initiation of the Alpha Pi class.
 
   - header: Re-Chartering of the Michigan Tech Chapter
     date: April 14, 2012
     image: /assets/img/reclogo-globe.png
     url: https://www.involvement.mtu.edu/organization/triangle-fraternity
-    caption: The Chapter of Triangle Fraternity at Michigan Technological University is reborn with a new membership, new ideas, and ready to get back to work.
+    caption: After four years of hard work and recruitment, the [National Council](https://www.triangle.org/national-leadership/national-council/) once again grants Triangle Fraternity at Michigan Tech the full rights and privileges of a Chapter. The members are energized and ready to go out and do great things for the Fraternity, the University, and the Community.
 
   - header: Pi-Mile for Charity
     image: https://i.imgur.com/xz7TRc9.jpg
