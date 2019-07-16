@@ -1,12 +1,5 @@
 ---
-cover-images:
-  - image-link: https://i.imgur.com/6s2f9yB.png
-    caption:
-      text: >
-        # Reconnecting
 
-        2015 Reunion Group Photo
-      position: left
 ---
 
 # Reunion
