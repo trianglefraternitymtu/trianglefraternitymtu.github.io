@@ -18,4 +18,4 @@ Our mailing address is `1307 Ruby Ave Houghton, MI 49931`
 
 ### Alumni Organization Information
 
-If you're looking to get involved in the Alumni Organization contact Alex Ott, the Alumni Secretary, at [ajott@mtu.edu](mailto:ajott@mtu.edu).
+If you're looking to get involved in the Alumni Organization contact Jerry Tozer, the Alumni Secretary, at [jltozer@mtu.edu](mailto:jltozer@mtu.edu).
