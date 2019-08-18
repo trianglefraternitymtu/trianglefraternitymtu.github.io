@@ -254,6 +254,13 @@ ul.social-buttons {
 }
 
 .card.contributors {
+  max-height: 18rem;
+
+  .card-body {
+    padding: 0;
+    overflow-y: auto;
+  }
+
   .media {
     img {
       max-width: 64px;
