@@ -39,6 +39,6 @@ Our partnerships make this event a success. The sisters of [Alpha Gamma Delta](h
 ## Registration is Open
 
 <!--Courtesy of the [Inter-Residence Housing Council (IRHC)](https://www.involvement.mtu.edu/organization/IRHC), the first **100** Michigan Tech Residence Hall students who signup will receive a **half-price** discount on the registration fee. Signup before the run and receive a T-shirt at no additional cost, while supplies last.-->
-The 2018 Pi Mile is scheduled for Sunday, September 23 and will begin at 10:00 AM. If you have additional questions contact [triangle-svc@mtu.edu](mailto:triangle-svc@mtu.edu).
+The 2019 Pi Mile is scheduled for Sunday, September 22 and will begin at 10:00 AM. If you have additional questions contact [triangle-svc@mtu.edu](mailto:triangle-svc@mtu.edu).
 
-<a class="btn btn-primary" href="https://goo.gl/forms/Gs4Rf3WGMzEyTCtj1" role="button">Signup</a>' %}
+<a class="btn btn-primary" href="https://forms.gle/6MVppurvbVKuWS7AA" role="button">Signup</a>' %}
