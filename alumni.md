@@ -45,31 +45,31 @@ Committees are established to better serve the Alumni and Active Organizations. 
 
 # Donations
 
-<!-- Donation cards -->
-<div class="row">
-<div class="col-lg-4 mb-4">
-{% include paypal-card.html paypal-id="VDS37JZR7LQAQ" header="Alumni Organization" content="
+Donations are used for:
+
 - Reimbursement of Pledge Fees for Dean's List achievers
 - Equipment for Winter Carnival
 - Travel assistances for National events
 - Alumni National Chapter Fee
+
+<!-- Donation cards -->
+<div class="row">
+<div class="col-lg-6 mb-6">
+{% include paypal-card.html paypal-id="VDS37JZR7LQAQ" header="One-Time Donation" content="
+Contribute to Triangle Fraternity Alumni with a one-time donation.
 "%}
 </div>
-<div class="col-lg-4 mb-4">
-{% include paypal-card.html paypal-id="K86DXC576MLZL" header="Housing Fund" content="
-- Housing Improvements
-"%}
-</div>
-<div class="col-lg-4 mb-4">
-{% include paypal-card.html paypal-id="D2BA3SJRMPVSS" header="Monthly Donation" content='
-<select name="os0" class="form-control" id="monthlyAmount">
-  <option value="Mr. T">Mr. T: $100.00</option>
-  <option value="Mr. Bigshot">Mr. Bigshot: $75.00</option>
-  <option value="Half Way There">Half Way There: $50.00</option>
-  <option value="I\'ll Share The Wealth">I\'ll Share The Wealth: $30.00</option>
-  <option value="Wilmer\'s Club">Wilmer\'s Club: $20.00</option>
-  <option value="I\'m giving her all she\'s got!">I\'m giving her all she\'s got!: $10.00</option>
-  <option value="I still got loans man!">I still got loans man!: $5.00</option>
+<div class="col-lg-6 mb-6">
+{% include paypal-card.html paypal-id="D2BA3SJRMPVSS" header="Monthly Donation Club" content='
+<input type="hidden" name="on0" value="Support our organization. Join a donation club!">
+<select name="os0">
+    <option value="Mr. T">Mr. T : $100.00 USD - monthly</option>
+    <option value="Mr. Bigshot">Mr. Bigshot : $75.00 USD - monthly</option>
+    <option value="Half Way There">Half Way There : $50.00 USD - monthly</option>
+    <option value="I\'ll Share The Wealth">I\'ll Share The Wealth : $30.00 USD - monthly</option>
+    <option value="Wilmer\'s Club">Wilmer\'s Club : $20.00 USD - monthly</option>
+    <option value="I\'m giving her all she\'s got!">I\'m giving her all she\'s got! : $10.00 USD - monthly</option>
+    <option value="I still got loans man!">I still got loans man! : $5.00 USD - monthly</option>
 </select>
 '%}
 </div>
