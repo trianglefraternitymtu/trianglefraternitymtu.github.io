@@ -46,7 +46,7 @@ Committees are established to better serve the Alumni and Active Organizations. 
 # Donations
 
 Donations are used for:
-
+- Chapter financial support during COVID19 crisis
 - Reimbursement of Pledge Fees for Dean's List achievers
 - Equipment for Winter Carnival
 - Travel assistances for National events
@@ -73,11 +73,4 @@ Contribute to Triangle Fraternity Alumni with a one-time donation.
 </select>
 '%}
 </div>
-</div>
-
-# Alumni Communities
-
-<!-- Alumni map -->
-<div class="embed-responsive embed-responsive-16by9">
-  <iframe id="alumniMap" src="https://view-awesome-table.com/-KlxQyblWqnpv0ngNv8l/view" scrolling="no" tabindex="-1"></iframe>
 </div>
