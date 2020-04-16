@@ -14,7 +14,8 @@ Thanks for checking in! The next Alumni Reunion will be this year starting Septe
 
 We can't wait to have you! If you have further questions please contact [Joe Halford](mailto:jahalfor@mtu.edu).
 
-Make sure to update your Alumni information on the [update form](http://infoupdate.mtutriangle.org/) so you receive information about the reunion as well as present day Active and Alumni activities.
+## Important!
+Please make sure to update your Alumni information on the [update form](http://infoupdate.mtutriangle.org/) so you receive information about the reunion as well as present day Active and Alumni activities.
 
 <!-- bottom cards -->
 <div class="row mt-5 mx-4">
