@@ -5,7 +5,7 @@ permalink: /get-involved/alumni
 ---
 
 # Alumni Board
-While the Alumni Board is comprised of specific positions, we encourage any and everyone to be active within the alumni group. Even if you can only spare a few minutes of your time, we could always use it! Please contact [Jerry Tozer](mailto:jltozer@mtu.edu) to get on our Alumni Executive Board email list.
+While the Alumni Board is comprised of specific positions, we encourage any and everyone to be active within the alumni group. Even if you can only spare a few minutes of your time, we could always use it! Please contact [Jerry Tozer](mailto:jltozer@mtu.edu) to get added to our Alumni Board email list.
 
 {% include spotlight-inline.html
   name="Alex Ott"
@@ -30,6 +30,10 @@ content="Alex served the Active Chapter in a number of positions, including VP o
   email_address="jltozer@mtu.edu"
   cover-image="/assets/img/people/jerry.png"
   content="Jerry served the Active Chapter as Secretary and as the Active President. He currently lives and works in Muskegon, MI"%}
+
+# Contact Info Update
+If your contact information is out-of-date, please visit [this link](https://docs.google.com/forms/d/1FASy157kA4q_xxx6FYD2u1__3hjRqSJ0949ZP3rWv84/edit?usp=drivesdk) to update it.
+
 
 # Committees
 
